@@ -1,5 +1,5 @@
 Web development projects
-Greetings to you! Welcome to my repository for my web development portfolio. Listed below is a detailed record of projects that I have done while learning web development. Each commit is listed with a date for the commit, the name of the files commited, and a description of the content of the files. 
+Greetings to you! Welcome to my repository for my web development portfolio. Listed below is a detailed record of projects that I have done while learning web development. Each commit is listed with a date for the commit, the name of the files commited, and a description of the content of the files. At the end of this document is a list of links to additional projects that I have done that are stored elsewhere here on Github.
 
 First commit:
   Data of commit:
