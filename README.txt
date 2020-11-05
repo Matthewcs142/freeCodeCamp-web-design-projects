@@ -18,8 +18,7 @@ Second commit:
     udemy_bootstrap_bootcamp_forms_exercise_solution.html
   Description:
     Both of these html files are part of the 6th section of a Bootstrap 4 bootcamp on Udemy which can be viewed here: https://www.udemy.com/share/101WZyAEAbdlZRQ3kF/
-    Both of these documents implement Bootstrap 4 via the Bootstrap 4 CDN. The first of these two files, the -forms_practice.html file, contains pretty plain html and it is just there to demonstrate the basic code needed to put together an html form using Bootstrap 4. The second file, -froms_exercise_solution.html, contains my solution for the final exercise assigned in this forms module in this couse. For this exercise, two images were provided and the goal was to recreate the html forms displayed within those images using Bootstrap 4. This assignment was split up into two parts, each corresponding to one of the two images, and that is why the form itself contains headings with the text "Part 1" and "Part 2" respectively.
-
+    Both of these documents implement Bootstrap 4 via the Bootstrap 4 CDN. The first of these two files, the -forms_practice.html file, contains pretty plain html and it is just there to demonstrate the basic code needed to put together an html form using Bootstrap 4. The second file, -froms_exercise_solution.html, contains my solution for the final exercise assigned in this forms module in this couse. For this exercise, two images were provided and the goal was to recreate the html forms displayed within those images using Bootstrap 4. This assignment was split up into two parts, each corresponding to one of the two images, and that is why the form itself contains headings with the text "Part 1" and "Part 2" respectively.The second file may be viewed on my codepen at: https://codepen.io/matthewcs142/pen/pobZRWQ
 
  
 
