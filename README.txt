@@ -28,7 +28,7 @@ Third commit:
     custom.css
     upstate_highway.jpg
   Description:
-    This is my solution for FreeCodeCamp's survey form project which is part of their responsive web design course. A version of this project can be viewed on my codepen at: https://codepen.io/matthewcs142/pen/ExypXaJ. The main difference between the version uploaded here and the version that is on my codepen is the backgound image. The image stored here is an image that I took personally and it has been included with the rest of the documents that make up this small project.
+    This is my solution for FreeCodeCamp's survey form project which is part of their responsive web design course. A version of this project can be viewed on my codepen at: https://codepen.io/matthewcs142/pen/ExypXaJ. The main difference between the version uploaded here and the version that is on my codepen is the backgound image. The image stored here is an image that I took personally and it has been included with the rest of the documents that make up this small project. This project implements Bootstrap 4 via the Bootstrap 4 CDN and it makes liberal use of Bootstrap classes.
 
 
 
