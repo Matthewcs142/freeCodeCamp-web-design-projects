@@ -20,7 +20,15 @@ Second commit:
     Both of these html files are part of the 6th section of a Bootstrap 4 bootcamp on Udemy which can be viewed here: https://www.udemy.com/share/101WZyAEAbdlZRQ3kF/
     Both of these documents implement Bootstrap 4 via the Bootstrap 4 CDN. The first of these two files, the -forms_practice.html file, contains pretty plain html and it is just there to demonstrate the basic code needed to put together an html form using Bootstrap 4. The second file, -froms_exercise_solution.html, contains my solution for the final exercise assigned in this forms module in this couse. For this exercise, two images were provided and the goal was to recreate the html forms displayed within those images using Bootstrap 4. This assignment was split up into two parts, each corresponding to one of the two images, and that is why the form itself contains headings with the text "Part 1" and "Part 2" respectively.The second file may be viewed on my codepen at: https://codepen.io/matthewcs142/pen/pobZRWQ
 
- 
+Third commit:
+  Date of commit:
+    11/5/20
+  Files committed:
+    survey_form.html
+    custom.css
+    upstate_highway.jpg
+  Description:
+    This is my solution for FreeCodeCamp's survey form project which is part of their responsive web design course. A version of this project can be viewed on my codepen at: https://codepen.io/matthewcs142/pen/ExypXaJ. The main difference between the version uploaded here and the version that is on my codepen is the backgound image. The image stored here is an image that I took personally and it has been included with the rest of the documents that make up this small project.
 
 
 
