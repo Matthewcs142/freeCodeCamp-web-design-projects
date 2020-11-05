@@ -1,0 +1,31 @@
+body{
+    background-image: url(upstate_highway.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form_background{
+    background-color:rgba(0, 0, 0, .4);
+    border-radius: 25px;
+}
+
+#thank_participation{
+    font-style: italic;
+}
+
+#visit_satisfaction{
+    background-color: white;
+}
+
+#places{
+    background-color: white;
+}
+
+#chance_of_return{
+    background-color: white;
+}
+
+#rating_question{
+    background-color: white;
+}
