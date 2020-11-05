@@ -30,8 +30,14 @@ Third commit:
   Description:
     This is my solution for FreeCodeCamp's survey form project which is part of their responsive web design course. A version of this project can be viewed on my codepen at: https://codepen.io/matthewcs142/pen/ExypXaJ. The main difference between the version uploaded here and the version that is on my codepen is the backgound image. The image stored here is an image that I took personally and it has been included with the rest of the documents that make up this small project. This project implements Bootstrap 4 via the Bootstrap 4 CDN and it makes liberal use of Bootstrap classes.
 
-
-
+Fourth commit:
+  Date of commit:
+    11/5/20
+  Files committed:
+    udemy_nav_navbar_exercise_solution
+  Description:
+    This is a project that is part of a Bootstrap 4 bootcamp on udemy, viewable here: https://www.udemy.com/share/101WZyAEAbdlZRQ3kF/. This project was based on two provided images, one of an extra-small mobile display while the other was of an image of an extra-large screen, and the requirements were to recreate the webpage modeled in the images, demonstrating responsize nav and navbar design with Bootstrap 4. This project is also viewable on my codepen at: https://codepen.io/matthewcs142/pen/oNLMVRY
+ 
 
 
 
