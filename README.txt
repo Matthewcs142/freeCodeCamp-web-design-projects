@@ -38,7 +38,13 @@ Fourth commit:
   Description:
     This is a project that is part of a Bootstrap 4 bootcamp on udemy, viewable here: https://www.udemy.com/share/101WZyAEAbdlZRQ3kF/. This project was based on two provided images, one of an extra-small mobile display while the other was of an image of an extra-large screen, and the requirements were to recreate the webpage modeled in the images, demonstrating responsize nav and navbar design with Bootstrap 4. This project is also viewable on my codepen at: https://codepen.io/matthewcs142/pen/oNLMVRY
  
-
+Fifth commit:
+  Date of commit:
+    11/5/20
+  Files committed:
+    udemy_grid_exercise_solution.html
+  Description:
+    This is a very simple project demonstrating how to implement Bootstrap 4's grid system and implement responsiveness at the same time. This short, simple assignment was part of a udemy Bootstrap 4 bootcamp viewable here: https://www.udemy.com/share/101WZyAEAbdlZRQ3kF/
 
 
 
