@@ -56,7 +56,24 @@ Sixth commit:
 
 
 
+Additional portfolio code:
+  The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
+    Fashion Blog
+			https://gist.github.com/4aeea0f96e4500bc53de874ed5b10569
+				plain html
+		
+    New York City Blog
+			https://gist.github.com/54be9bc4cae6c561939b70806d6fc797
+				html and css
+		
+    Healthy Recipes
+			https://gist.github.com/0baea1df6587e957c18d4828a0c8b257
+				html and css
+		
+    Olivia Woodruff Portfolio
+			https://gist.github.com/18a6a50be61c13ef7d602d4795d5397b
+				html and css
 
 
 
