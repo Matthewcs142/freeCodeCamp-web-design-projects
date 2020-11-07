@@ -46,7 +46,13 @@ Fifth commit:
   Description:
     This is a very simple project demonstrating how to implement Bootstrap 4's grid system and implement responsiveness at the same time. This short, simple assignment was part of a udemy Bootstrap 4 bootcamp viewable here: https://www.udemy.com/share/101WZyAEAbdlZRQ3kF/
 
-
+Sixth commit:
+  Date of commit:
+    11/6/20
+  Files committed:
+    dasmotos_arts_and_crafts
+  Description:
+    This short project was included as part of the capstone for Codecademy’s lesson on local web design in the web design path. The goal of the project was to use an editor (sublime, atom, or Visual Code Studio) to create a simple webpage according to provided specs. The assignment was not guided, meaning I was not told specifically how to write the html or the css code for the project. The only guidance provided was in regards to how the styling should be done (provided in the spec document). This was a simple, static web page. 
 
 
 
