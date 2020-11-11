@@ -74,6 +74,18 @@ Additional portfolio code:
     Olivia Woodruff Portfolio
 			https://gist.github.com/18a6a50be61c13ef7d602d4795d5397b
 				html and css
+    Paint Store
+			https://gist.github.com/3adeba46a67709ac4a79ad71c75a7961
+				html and css
+    Typography
+			https://gist.github.com/277f635de14d80d6ba2b492d40345475
+				html and css
+    The Box Model: Davie's Burgers
+			https://gist.github.com/042af720be0b33b95d3980d98aab7a2f
+				html and css
+    Broadway
+			https://gist.github.com/095519d36e360bef1d4993296aeb0dea
+				html and css				
 
 
 
