@@ -54,7 +54,13 @@ Sixth commit:
   Description:
     This short project was included as part of the capstone for Codecademy’s lesson on local web design in the web design path. The goal of the project was to use an editor (sublime, atom, or Visual Code Studio) to create a simple webpage according to provided specs. The assignment was not guided, meaning I was not told specifically how to write the html or the css code for the project. The only guidance provided was in regards to how the styling should be done (provided in the spec document). This was a simple, static web page. 
 
-
+Seventh commit:
+  Date of commit:
+    11/10/20
+  Files committed:
+    Technical Documentation page
+  Description:
+    This project is my solution for Freecodecamp's technical documentation project, a capstone project for their responsive web design course. This version of my project does not include the auto grader from FCC. This project can be viewed on my codepen at: https://codepen.io/matthewcs142/pen/PozxERO, as well as the version with the auto grader at: https://codepen.io/matthewcs142/pen/PozxEbm. The project is built with the bootstrap 4 framework and it features a bootstrap 4 scrollspy as well as two very different formats and positions for the page's navigation based on the size of the screen being used to view the page. The content of the page is just lorem ipsum text, making this project a template for a documentation page. I gave the project a grey-scale color scheme to give the project a utilitarian feel.
 
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
