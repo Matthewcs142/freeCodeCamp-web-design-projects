@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title >JS Documentation</title>
+    <link rel="shortcut icon" href="file-code-regular.svg" type="image/x-icon">
+        <!--This icon from Font Awsome is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, viewable here: https://creativecommons.org/licenses/by/4.0/. As per license terms, no modifactions were made to the orginal icon. The icon as it is used here is in its original version as defined by the state in which it was in when it was downloaded from the Font Awesome website in SVG format-->
+    <link rel="stylesheet" href="styles.css">
+        <!--Custom CSS styles-->
+    </head>
+  <body id='main-content'>
+    <div class="container"> 
+        <div class="row">
+            <div class="col">
+                <!--Navbar on mobile view. This nav bar is only accessible when the screen is smaller than bootstrap's definition of a large screen size.-->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+                    <header id='top' class="navbar-brand h1">JavaScript Documentation</header>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto d-lg-none">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Introduction">Introduction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#What_You_Should_Already_Know" class="nav-link">What You Should Already Know</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Hello_World" class="nav-link">Hello World</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Variables" class="nav-link">Variables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Declaring_Variables" class="nav-link">Declaring Variables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Variable_Scope" class="nav-link">Variable Scope</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Global_Variables" class="nav-link">Global Variables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Constants" class="nav-link">Constants</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Data_Types" class="nav-link">Data Types</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#If...Else_Statements" class="nav-link">If...Else Statements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#While_Statements" class="nav-link">While Statements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Function_Declarations" class="nav-link">Function Declarations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#References" class="nav-link">References</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <div class="row">
+            <!--Navbar on large and extra large screens (large and extra large as defined by Bootstrap 4's built-in breakpoints)-->
+            <nav class="col-3 pr-0 mt-3 d-none d-lg-inline">
+                <ul class="list-group ml-auto" id="contents">
+                    <li class="list-group-item">
+                        <a class="text-dark nav-link" href="#Introduction">Introduction</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#What_You_Should_Already_Know" class="text-dark nav-link">What You Should Already Know</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#JavaScript_and_Java" class="text-dark nav-link">JavaScript and Java</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#Hello_World" class="text-dark nav-link">Hello World</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#Variables" class="text-dark nav-link">Variables</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#Declaring_Variables" class="text-dark nav-link">Declaring Variables</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#Variable_Scope" class="text-dark nav-link">Variable Scope</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#Global_Variables" class="text-dark nav-link">Global Variables</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#Constants" class="text-dark nav-link">Constants</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#Data_Types" class="text-dark nav-link">Data Types</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#If...Else_Statements" class="text-dark nav-link">If...Else Statements</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#While_Statements" class="text-dark nav-link">While Statements</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#Function_Declarations" class="text-dark nav-link">Function Declarations</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#References" class="text-dark nav-link">References</a>
+                    </li>
+                  </ul>
+            </nav>
+            <!--This is the primary content for the web page. All relevant content is contained in this section and it is formatted as a bootstrap 4 scrollspy, but only when viewed with large and extra large screens. Placeholder text has been used in place of actual content.-->
+            <div id='text' class="col m-3 d-lg-col-9 m-lg-3 rounded bg-white scrollspy" data-spy="scroll" data-target='#contents' data-offest='0'>
+                <main id="main-doc">
+                    <section class="main-section" id="Introduction">
+                        <header class='text-center text-lg-left h2 pt-3'>Introduction</header>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit animi id voluptatem cumque odio non suscipit error! Architecto, a fuga odio optio labore officiis, minus possimus rem reiciendis sint maxime! Rerum non veritatis maxime rem fugiat praesentium tempore iusto, eos sint suscipit officiis consectetur deleniti optio placeat. Obcaecati ut soluta dicta earum quo? Soluta quos accusantium at maiores blanditiis voluptate, culpa molestias omnis molestiae voluptatibus. Nostrum debitis dolor praesentium doloribus nisi laborum blanditiis dicta aperiam, commodi, explicabo itaque sequi placeat cum id fugiat amet sunt beatae nihil dignissimos. Doloribus culpa, vel molestias fuga, nostrum perspiciatis commodi quaerat ullam quibusdam cupiditate dolorum voluptates magni numquam, a illo nulla doloremque enim voluptatem obcaecati tempora ratione saepe possimus voluptas labore. Labore voluptates delectus unde ducimus amet quibusdam reiciendis corporis harum? Possimus mollitia repudiandae ex, debitis placeat voluptates, rerum voluptas eligendi ipsam nam eaque voluptate velit excepturi repellat. Perferendis, vitae dicta. Ullam labore quas repellendus debitis. Velit dolore eum, et debitis impedit ducimus obcaecati aperiam possimus incidunt soluta sit non recusandae architecto, autem cupiditate, voluptates atque sunt quo culpa. Officiis nemo alias quae excepturi distinctio optio quam ipsam, esse veniam quod aperiam aliquid voluptatum doloribus necessitatibus laboriosam magnam dolore ex, corporis quia hic, eveniet quis consequatur? Repudiandae impedit maiores incidunt blanditiis sequi veritatis, reprehenderit esse velit sint cupiditate ipsam doloremque et assumenda iure! Quo, ducimus, nostrum id, laboriosam voluptas in doloremque amet fugit esse quis provident blanditiis dolor minima. Doloremque explicabo accusamus temporibus, rem nisi error sunt, similique cumque nam iure, doloribus voluptatibus tempore?</p>               
+                    </section>
+                    <section class="main-section" id="What_You_Should_Already_Know">
+                        <header class='text-center text-lg-left h2'>What You Should Already Know</header>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates amet est voluptatibus quam cupiditate, nostrum minus facere soluta recusandae, expedita modi nobis nisi eligendi. Consequuntur, in voluptate. Voluptatibus facilis officia temporibus est, harum aliquam, nulla eius tempore quasi, excepturi numquam quisquam veniam sunt porro deleniti molestiae! Nihil mollitia vitae porro suscipit adipisci in explicabo minus illo odio cum provident veniam, earum perspiciatis veritatis doloribus, saepe, libero repellendus voluptatem odit dolores facere nemo maxime excepturi! Maiores repudiandae natus ipsum sint debitis tempora, quo suscipit. Aliquid nesciunt, dicta quos cum dolore dolorem dolores voluptates vero eaque ut. Enim, quasi itaque? Totam similique, maxime nam velit voluptatem error veniam corporis et consectetur atque aperiam eius. Blanditiis corrupti, veritatis veniam non quos molestias vel illo id doloremque harum consequuntur repellendus, obcaecati aliquid, excepturi quam perferendis facere odio nisi similique quis qui deserunt architecto eum. Enim omnis perspiciatis hic? Minus adipisci dignissimos reprehenderit quibusdam doloribus quis voluptate beatae, quod assumenda corporis pariatur consequuntur quisquam sequi fugit magni quia quidem harum! Vitae odit corporis illum repellat ad quae nostrum sapiente nihil sit tempora ab voluptatibus dolorum esse minima, officia ducimus quo illo ut. Eaque, soluta, veritatis cumque sequi adipisci suscipit reiciendis, repellendus accusantium in dignissimos laudantium. Eos ab porro voluptatem. Repellat modi ipsa sed adipisci quam veniam nisi, laudantium illo. Officiis, amet suscipit? Facilis natus vero soluta, consectetur iusto, provident dolor id tempora quis rem sed. Iusto, quod dolores natus asperiores cum cumque? Maiores, quos architecto, quis, vel quaerat laudantium ut blanditiis eaque quas molestias delectus.</p>
+                            <button class="d-lg-none"><a href="#top" class="text-dark">Back to Top</a></button>
+                    </section>
+                    <section class="main-section" id="JavaScript_and_Java">
+                        <header class='text-center text-lg-left h2'>JavaScript and Java</header>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ducimus doloribus hic sit vero assumenda earum omnis repellat quibusdam quaerat ullam, consequatur, obcaecati fuga veniam, consequuntur nesciunt praesentium quo temporibus voluptas magnam accusantium voluptatibus. Voluptate maiores voluptatibus similique? Vero, nisi. Sunt, explicabo nisi modi sequi aliquid reprehenderit qui? Velit consequatur aliquam et aperiam aut delectus dolore commodi rem cumque quidem vel, vero beatae quia quae a ab debitis dolorem ducimus provident accusantium. Commodi soluta quo ipsam eligendi at et ipsa eius adipisci molestias, dolor possimus ex beatae expedita unde? Similique eos delectus id facere alias iste error quisquam repudiandae expedita corrupti quod sed, unde vero perferendis excepturi assumenda dolore? Quibusdam debitis, ex molestias tempora eligendi alias exercitationem rem est ad. Magnam placeat aut magni nobis enim tempore, ab cum earum. Dolores molestias assumenda iusto, vel maiores sapiente commodi eveniet aperiam quibusdam? Nulla esse iusto vel non placeat aperiam accusamus voluptate dolores obcaecati sunt nesciunt repellat fugiat fuga fugit amet atque, ducimus harum voluptates voluptas nisi eum odit sit impedit. Repellendus ad eius totam odit corporis doloremque nihil vel nam, fugiat id laboriosam minima! Voluptatum sapiente voluptatem unde soluta saepe obcaecati officiis, enim excepturi ex, eveniet alias dignissimos inventore autem! Nisi tenetur quaerat doloribus doloremque, corporis neque soluta unde quam, sunt omnis provident! Repellendus sint, facere harum cumque doloremque eveniet dolorem dicta minus facilis aliquam, veniam, magnam soluta est dignissimos. Laboriosam voluptates, accusantium, exercitationem pariatur incidunt vitae alias minima id illum nostrum dicta! Voluptate blanditiis consequatur saepe. At natus laborum reprehenderit!</p>
+                            <code class="d-flex justify-content-center">code goes here</code>
+                            <button class="d-lg-none"><a href="#top" class="text-dark">Back to Top</a></button>
+                    </section>
+                    <section class="main-section" id="Hello_World">
+                        <header class='text-center text-lg-left h2'>Hello World</header>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ab ipsum repellat vitae? Laudantium voluptas mollitia omnis cupiditate ullam neque ipsam iure cum ad eius nisi tenetur molestias velit nemo, iste repellendus cumque eveniet ipsum perspiciatis. Eligendi voluptatem deserunt ratione minima nostrum. Rem velit reiciendis, eum non eveniet tenetur sunt ut vel ea adipisci assumenda quasi, tempore magni accusantium illum rerum saepe maiores minus, qui minima ducimus pariatur at soluta. Molestiae vitae ea laudantium minus amet ducimus iure. Error, fugit voluptate? Nemo provident neque sunt alias ducimus deserunt, enim recusandae tempore unde explicabo error! Laboriosam officia, soluta alias autem rem et! Laborum impedit nesciunt tenetur, ratione perferendis animi molestiae! Iste ex harum, qui corrupti facilis recusandae vitae debitis repellat odio vero provident. Excepturi, nulla aliquid adipisci impedit id dolore tenetur sequi fugiat consequuntur, ad sit hic nesciunt harum at ipsum doloremque nobis nisi quibusdam rerum aliquam exercitationem. Maxime obcaecati nobis aperiam? Quas explicabo facilis cumque aliquid natus? Esse, saepe quasi tempore aperiam excepturi expedita impedit quos facilis voluptas rerum quod, repellat distinctio dolores possimus alias, perspiciatis mollitia nobis? Repellendus, quos? Saepe, temporibus suscipit laborum asperiores eos ducimus inventore vero voluptas eligendi aliquid alias rem nobis, quisquam quod minus ipsam aperiam error cumque quis hic! Rem dicta blanditiis, voluptates sed odit veniam aliquam laboriosam, explicabo provident sunt doloremque neque vero. Quae, accusamus unde consectetur, corporis vero veniam velit itaque, eaque consequuntur fugiat molestiae aperiam quos quo dicta officia. Dolore quibusdam itaque quas pariatur atque. Esse vero, adipisci blanditiis quibusdam quas non.</p>
+                            <code class="d-flex justify-content-center">code goes here</code>
+                            <button class="d-lg-none"><a href="#top" class="text-dark">Back to Top</a></button>
+                    </section>
+                    <section class="main-section" id="Variables">
+                        <header class='text-center text-lg-left h2'>Variables</header>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam deserunt consequuntur quaerat impedit reiciendis pariatur officia recusandae vero quod quis architecto asperiores sint tempore eius provident enim ducimus qui, odio necessitatibus repellat ut a adipisci exercitationem error. Iure harum perferendis sit, delectus maxime doloremque soluta amet. Veniam dolore, cum laboriosam provident ipsum fugit odit et, sed voluptatem facilis eveniet impedit corrupti! Possimus quo amet neque perferendis blanditiis veniam id delectus nihil odio nam magnam, iste placeat aliquid non sint accusantium dicta illum, laboriosam eaque deserunt. Accusamus, facilis sunt fuga magnam sapiente repellendus provident nostrum aperiam eveniet commodi temporibus tenetur aliquam, obcaecati excepturi praesentium. Quae dicta accusamus aut voluptatem, vitae blanditiis laboriosam voluptate necessitatibus aliquam dolores numquam recusandae, cum repellendus voluptatum modi dolorem. Magnam quia atque officiis sed, nulla sunt ipsa, ad, voluptate totam facilis accusamus qui ducimus? Officiis nostrum commodi, error amet odit incidunt repellat porro quae. Sapiente cum commodi repellat quam aliquam ducimus nobis eius fugiat, impedit cumque explicabo tempore iure harum et, porro corrupti vel animi voluptates unde veritatis architecto, iusto voluptas. Quam, cum voluptatum excepturi, temporibus ratione tempora sint pariatur, blanditiis impedit officia velit. Accusamus voluptas tempora, reiciendis repellat architecto ab ipsa quasi necessitatibus eveniet cupiditate possimus non illo esse soluta ipsam maxime optio sit provident molestiae iure. Eligendi natus ab dolores nostrum minus, eum enim omnis ex rem ipsum quis impedit, et obcaecati esse quidem exercitationem temporibus error veritatis molestiae. Aliquid tenetur itaque, ab, vero dicta doloribus quaerat ipsam similique iure dolorum aperiam esse tempore reiciendis.</p>               
+                            <code class="d-flex justify-content-center">code goes here</code>
+                            <button class="d-lg-none"><a href="#top" class="text-dark">Back to Top</a></button>    
+                    </section>
+                    <section class="main-section" id="Declaring_Variables">
+                        <header class='text-center text-lg-left h2'>Declaring Variables</header>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium vero iure culpa quis nostrum eum? Inventore facilis harum molestias, voluptas nostrum perspiciatis, sunt tempora iste eveniet sed ab voluptatem dignissimos nobis vero mollitia praesentium quidem vitae. Tempora asperiores similique, commodi in, harum doloremque optio beatae error nobis fugiat adipisci nulla? Enim non voluptatem voluptas ipsam dolore quas at accusamus reiciendis error laboriosam. Illo illum tenetur, nulla cumque accusamus amet ut exercitationem aliquam corporis ratione autem laborum esse, placeat quasi voluptas doloremque facere? Fuga eius perferendis tenetur facilis corporis similique iusto esse soluta laboriosam. Recusandae, cupiditate quis. Eveniet accusamus veniam obcaecati iste aperiam iure alias quam doloribus a eius voluptas ea perspiciatis fuga impedit neque facilis aliquam ipsam nobis cum, nesciunt deleniti magnam unde voluptates repellat. Minima veniam ipsa aut a explicabo culpa autem aliquid. Exercitationem, cum ex quaerat veniam ipsam velit at. Id atque assumenda reprehenderit illum totam neque sunt quae quod modi eos? Quaerat officiis similique cumque error asperiores a, accusamus, aut ipsa sint provident repellendus, exercitationem quia alias voluptate. Est tempora aliquam, et esse nihil culpa facere quidem possimus optio unde aliquid accusantium nisi illum incidunt veritatis, in at doloremque eos voluptatibus libero quo? Repudiandae dicta perferendis ea cum deserunt quidem incidunt eum exercitationem repellat optio odio sunt sint corporis quisquam, excepturi ad itaque. Delectus dolore amet esse magnam ipsam dolor maxime deleniti corrupti beatae itaque eveniet molestias, possimus quaerat molestiae natus impedit culpa vel ipsum modi! Iure asperiores nobis nihil labore cupiditate dolore in ipsa doloremque autem.</p>
+                            <code class="d-flex justify-content-center">code goes here</code>
+                            <button class="d-lg-none"><a href="#top" class="text-dark">Back to Top</a></button>    
+                    </section>
+                    <section class="main-section" id="Variable_Scope">
+                        <header class='text-center text-lg-left h2'>Variable Scope</header>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam rerum id pariatur eum cum quos quae molestiae, voluptates ipsa, dolorem expedita voluptatum repudiandae! Dolorem voluptatum voluptatibus ipsa vero, fugiat fuga deserunt quidem repellat mollitia odit dolor provident, consequatur quaerat ab animi? Cupiditate autem rem facere doloribus soluta. Debitis, consectetur dolorem laborum esse rerum ratione reprehenderit ipsum ad soluta eligendi culpa repudiandae quod totam iste reiciendis. Enim non laborum, cum ab a mollitia itaque? Sint voluptatum labore quos deserunt error. Nihil dolorum voluptatem cum eos? Omnis quos voluptate ea incidunt dolorem minus quibusdam dolores veniam necessitatibus ratione, fugit veritatis ipsa eos unde asperiores atque. Minima, maxime? Eius minus consequatur numquam, mollitia sed cum! Officia ipsa reiciendis esse itaque distinctio, expedita id! Totam, impedit ex, molestiae aliquid quam hic blanditiis numquam, dicta ratione ab ipsum et animi illum! Sint vero enim laudantium asperiores culpa quasi temporibus harum facilis repudiandae porro voluptatem odit voluptates voluptatum expedita odio, corrupti blanditiis, aut assumenda dolor ab est delectus omnis? Blanditiis, iste aliquid nam nihil amet soluta ex, ad ipsum, velit architecto alias dolore officia. Suscipit tempore minima officia facilis, alias ratione numquam expedita maiores in libero dolor illum, laudantium ducimus consequatur laborum consectetur fuga sint eaque, assumenda culpa dicta quam. Voluptatum aperiam dicta sequi provident, incidunt consequuntur nostrum, necessitatibus veniam, eos dolor id harum. Cupiditate aspernatur odit accusamus unde at quia officia libero pariatur debitis quas impedit quis numquam, beatae, deserunt vitae in doloremque atque nostrum nam corrupti molestias recusandae accusantium repudiandae modi! Quibusdam, minus placeat.</p>
+                            <code class="d-flex justify-content-center">code goes here</code>
+                            <button class="d-lg-none"><a href="#top" class="text-dark">Back to Top</a></button>
+                    </section>
+                    <section class="main-section" id="Global_Variables">
+                        <header class='text-center text-lg-left h2'>Global Variables</header>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium dicta nihil, odio sint esse fugit quisquam maxime sed est quaerat minus quibusdam dolor quasi nam tempore ducimus similique, non officia perferendis adipisci quo accusantium ad quod. Doloribus commodi neque dolores provident voluptatem illum aliquam accusamus. Deserunt perferendis non eligendi accusamus facilis, illo id veritatis! Odit nulla eius provident ipsam optio sit, minima ipsum soluta ipsa maxime vero facilis? Dolore quaerat ad quibusdam repudiandae? Consequuntur consequatur fuga, rerum quibusdam pariatur commodi dolore aspernatur. Nesciunt, esse a minima ex ducimus voluptas tempore explicabo aliquid eos odio repudiandae ipsam, facere quidem molestias vitae dignissimos excepturi nam tenetur incidunt amet temporibus qui at. Beatae consectetur impedit quae vel minus, cumque veritatis rem consequuntur porro quidem, quo debitis fugit nisi voluptatum cupiditate blanditiis ratione fugiat atque fuga est. Fugiat accusantium perspiciatis non mollitia molestiae unde nostrum vero at eius, quisquam, quis incidunt voluptatibus odio facere iste vel animi debitis libero ullam dolor quo, praesentium nihil cumque ab? Numquam qui corrupti ducimus omnis similique perspiciatis velit nisi esse itaque voluptate deleniti accusamus repudiandae, illo sapiente impedit blanditiis. Animi dolorum molestias dicta delectus sint illo minima. Excepturi libero voluptatum placeat porro unde, ex veniam temporibus beatae asperiores neque! Iusto esse consectetur commodi. Officiis dolore voluptatem similique fuga voluptates eligendi reprehenderit deserunt deleniti cupiditate temporibus rerum nemo, quo molestias veritatis expedita placeat? Vel corporis quasi expedita repellendus, perferendis recusandae voluptate atque ullam exercitationem non, assumenda beatae doloribus dolor nisi provident. Sed natus dolorum eaque labore maiores nesciunt cum.</p>
+                            <code class="d-flex justify-content-center">code goes here</code>
+                            <button class="d-lg-none"><a href="#top" class="text-dark">Back to Top</a></button>
+                    </section>
+                    <section class="main-section" id="Constants">
+                        <header class='text-center text-lg-left h2'>Constants</header>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur facilis cum nulla deserunt error quis officia nihil dicta illo natus, exercitationem commodi aut impedit neque maxime minus laborum alias omnis provident dolorem? Nesciunt, quasi. Dolorum explicabo esse, iusto voluptatum consectetur rerum nihil libero quae quaerat ea minus dolores aliquam necessitatibus, modi nisi, sequi repudiandae porro in itaque cupiditate soluta? Earum velit culpa minima fugit asperiores aspernatur architecto eos rem atque! Dicta vero officia, sunt labore quod beatae magni odio similique quos nulla fugiat deserunt quaerat ut pariatur nostrum quas aliquam molestiae maiores sint? Pariatur exercitationem minima dignissimos alias fuga sed ipsum necessitatibus velit cupiditate fugit doloremque cumque, magni harum eaque itaque aperiam eum esse quisquam molestias ut quae dolorum illo nemo? Rerum similique pariatur sequi, exercitationem, eveniet dolor laborum quibusdam consequuntur ratione fugiat mollitia autem magni tempora, nam iusto nulla tenetur! Voluptas obcaecati magnam, cum nam dolores quidem numquam iste culpa eaque aperiam sit facilis expedita soluta eligendi fuga enim veritatis sequi, saepe magni ipsa dignissimos eveniet ea? Beatae officiis natus, deserunt quos incidunt recusandae aut fuga sed vel animi eos? Debitis voluptatem officiis eos ullam hic, enim blanditiis tempora, culpa nemo rerum ex harum animi suscipit velit corrupti voluptate atque eum iure nulla repudiandae deleniti? Facere laboriosam quos animi corporis nulla commodi velit autem. Assumenda aliquid atque saepe dolor dolorum, quasi placeat debitis temporibus accusantium tenetur voluptatem ab sequi. Pariatur, deleniti eos. Natus culpa illo laborum quas tempora sapiente, eius facere deserunt, eos eligendi est aliquid voluptas exercitationem dignissimos.</p>
+                            <code class="d-flex justify-content-center">code goes here</code>
+                            <button class="d-lg-none"><a href="#top" class="text-dark">Back to Top</a></button>
+                    </section>
+                    <section class="main-section" id="Data_Types">
+                        <header class='text-center text-lg-left h2'>Data Types</header>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam accusamus unde eius quas nostrum deleniti consequatur inventore quibusdam aliquam pariatur id, ducimus sint quidem, reprehenderit aliquid itaque repellat suscipit molestiae beatae assumenda. Assumenda dolore, dolores minima placeat vel illo itaque id? Repellendus deserunt, exercitationem maiores officiis sint in tempore harum velit expedita accusantium fugit autem nobis, doloremque repudiandae dolorum consectetur ipsam. Magnam aliquid a qui eveniet. Deserunt, quas odio recusandae excepturi ab at fuga suscipit iure voluptatum tempore numquam sit natus doloribus iusto minus nesciunt ipsam? Repudiandae praesentium fugiat eaque voluptas. Corporis in, laboriosam totam velit pariatur suscipit! Sed deleniti voluptatibus adipisci eaque harum, cumque eum nostrum illo temporibus exercitationem deserunt. Eaque voluptatum magnam quibusdam iusto consequuntur alias officiis fugiat explicabo temporibus. Animi praesentium voluptatum assumenda, nesciunt consequuntur cupiditate amet modi? Tenetur, quidem at voluptatum minus minima repellat neque quaerat alias doloremque! Nemo iusto ipsum corrupti assumenda vitae, dolor, eveniet sed ea eius nisi tempore deleniti accusamus asperiores nam in ullam qui rerum praesentium? Suscipit exercitationem reiciendis ex itaque sequi saepe sit ut illo assumenda natus. Ducimus laborum, architecto sit sint nobis animi eum repudiandae qui ullam necessitatibus perferendis facere quas quis porro adipisci beatae dicta doloribus mollitia omnis in reiciendis? Est deleniti veritatis vero iste repellat? Possimus unde obcaecati cupiditate porro omnis nulla doloribus eaque ullam, consequuntur quia laborum dignissimos ut distinctio aliquam dolorum vitae molestiae necessitatibus maiores assumenda laboriosam laudantium alias reiciendis voluptate. Dolores ipsam, inventore quae corrupti reiciendis possimus excepturi voluptates labore repellat! Hic deleniti saepe eaque?</p>
+                            <code class="d-flex justify-content-center">code goes here</code>
+                            <button class="d-lg-none"><a href="#top" class="text-dark">Back to Top</a></button>
+                    </section>
+                    <section class="main-section" id="If...Else_Statements">
+                        <header class='text-center text-lg-left h2'>If...Else Statements</header>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nulla totam illum ut eaque corrupti voluptatum reiciendis possimus aspernatur esse placeat dignissimos omnis hic pariatur, adipisci cum aliquid cumque laboriosam asperiores quos. Excepturi, officiis nobis tempora dolorum deleniti inventore nisi voluptatum amet, animi placeat minima quibusdam, iste blanditiis aspernatur distinctio iusto voluptates incidunt exercitationem? Aliquid temporibus, velit sunt in cumque obcaecati ipsam nesciunt praesentium mollitia ab debitis libero nemo. Cupiditate porro molestiae itaque voluptatem, magnam saepe ullam ratione dicta soluta illum quia eos maiores similique sed voluptatibus hic rem accusantium voluptates fugit harum. Deserunt consequuntur deleniti in vel at ab, ea aliquid, voluptatum veniam debitis eos repellendus dolore illum iste aspernatur. Provident eligendi amet ipsa, sequi porro nesciunt, soluta nulla eius pariatur commodi aliquid corporis. Eligendi ipsum quidem architecto ea aspernatur neque vel dolorum quod tenetur veritatis! Magnam dignissimos laudantium non excepturi molestiae veniam perferendis ipsum odit iste iure. Officia qui minus amet nostrum blanditiis. Ipsa velit error aspernatur quo nihil nulla nam temporibus fugit quos perferendis. Veniam soluta fugiat eligendi ullam optio. Deserunt quae facere perferendis quod earum sapiente dolorem veritatis laudantium, hic consequatur in sed sit veniam ex quos assumenda voluptate modi ab animi maiores minus. Quisquam, dolorem asperiores saepe perferendis incidunt veniam natus quos iusto omnis quia quae vel laudantium facilis sit aut quis ipsa quam distinctio. Suscipit ad quibusdam atque dolorem similique temporibus. Soluta enim laboriosam suscipit facilis eaque voluptatibus excepturi mollitia architecto fugiat? Ut officiis sequi esse. Tenetur error minima cum itaque perspiciatis, at cupiditate.</p>
+                            <code class="d-flex justify-content-center">code goes here</code>
+                            <button class="d-lg-none"><a href="#top" class="text-dark">Back to Top</a></button>
+                    </section>
+                    <section class="main-section" id="While_Statements">
+                        <header class='text-center text-lg-left h2'>While Statements</header>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad odit nobis placeat animi qui, neque sunt velit provident obcaecati pariatur iure ipsa nihil. Quidem voluptatum, tenetur id illum libero facilis adipisci fugit distinctio autem iure alias, ea illo amet porro cupiditate maiores ipsam a eum quos, ut saepe esse sit eius doloribus. Aliquam aut iste labore. Ducimus nostrum atque maiores explicabo? Blanditiis non aliquam quidem architecto, accusamus sed, velit ad incidunt eligendi aspernatur suscipit voluptas a, nemo illum recusandae porro? Dolorum provident omnis molestias ipsa culpa, suscipit aliquid facilis iure? Temporibus et cumque, aspernatur, quia praesentium harum maiores expedita adipisci ipsam sit perferendis facere animi possimus cupiditate assumenda ad dolorum voluptatibus consequuntur pariatur laboriosam exercitationem. Veniam, mollitia molestias odio laboriosam sit alias unde! Sequi iusto vel amet esse non facere, quo pariatur corporis adipisci ab laborum iste tempore, perspiciatis, qui quia voluptatem accusamus rem veniam et molestias commodi inventore quos. Dicta, maxime suscipit impedit qui rem doloremque a? Optio id dolores doloribus voluptatem esse omnis ab quia officiis atque cum sit quibusdam possimus ipsam est debitis, magni blanditiis consequuntur maiores et rerum tempora distinctio voluptate aut? Ad maxime animi, porro culpa minima facere recusandae, commodi atque eos voluptatem doloremque dolorum dolore sed tempora nam ab totam numquam quod nulla perferendis aut. Exercitationem in unde a consequatur possimus ut quod ad, sed tempore autem. Distinctio blanditiis doloremque placeat dolor quo recusandae, expedita repellendus porro earum cupiditate perspiciatis. Nulla soluta distinctio in officia tempore, facere eius asperiores culpa sapiente possimus obcaecati ab?</p>
+                            <code class="d-flex justify-content-center">code goes here</code>
+                            <button class="d-lg-none"><a href="#top" class="text-dark">Back to Top</a></button>
+                    </section>
+                    <section class="main-section" id="Function_Declarations">
+                        <header class='text-center text-lg-left h2'>Function Declarations</header>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia tempora ipsa vero accusantium quaerat cum quia in sint expedita minus deserunt dolor obcaecati iusto velit, id necessitatibus cumque non dignissimos nostrum fugit dolores. Ut officiis dolore animi obcaecati iure odit, eos eius nulla repellendus. Maxime quibusdam dolores quidem adipisci at ipsa cum distinctio a vero voluptatem! Eum nostrum aspernatur quisquam voluptas facilis deserunt illo recusandae dicta dolorum eligendi, quod ea quia soluta beatae est maiores quae iure assumenda fugit sit odio, quibusdam pariatur! Architecto voluptate laboriosam id ipsa vitae omnis beatae, voluptates suscipit doloremque. Numquam, ut repellat! Sequi blanditiis rerum a expedita et quis? Quia, quidem? Veniam voluptate assumenda asperiores, distinctio eius quod sint doloribus sequi. Quia ipsum enim pariatur dolorum temporibus id numquam. Dolorem quaerat blanditiis pariatur illum consequatur quisquam nihil velit, soluta aliquam sequi ea eveniet excepturi cum. Nihil nam animi modi dolore, tempora alias dolores. Illum officia accusantium, porro velit iusto at! Nostrum non perspiciatis harum, iusto sint sit id eveniet dolor aperiam eius ipsa labore blanditiis nemo. Porro sunt cupiditate quis amet expedita nihil quo voluptates quaerat vel atque. Excepturi minus ab pariatur! Rem, voluptas facere nemo esse earum placeat magnam similique a eum cumque voluptate illum, excepturi mollitia illo ad, aliquam inventore quisquam vero commodi dolorem facilis optio aspernatur qui. Maiores libero, mollitia minima veniam corporis autem nesciunt quasi temporibus dolor harum iste aspernatur pariatur iusto velit facere sit tenetur ab aliquid officiis magnam dicta deserunt id architecto doloremque. Ipsum dignissimos reprehenderit delectus commodi nostrum!</p>
+                            <code class="d-flex justify-content-center">code goes here</code>
+                            <button class="d-lg-none"><a href="#top" class="text-dark">Back to Top</a></button>
+                    </section>
+                    <section class="main-section" id="References">
+                        <header class='text-center text-lg-left h2'>References</header>
+                            <p class="h4">Acknowledgements</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, minus, consequuntur tempora quaerat officiis sunt nobis laboriosam fugiat fuga odit error perferendis ipsam animi neque? Magni harum similique nulla non.</p>
+                            <p class="h4">Bibliography</p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, eius!</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, fuga.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, autem?</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, a?</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, minima?</li>
+                            </ul>
+                    </section>
+                </main>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <footer class="bg-dark text-white rounded p-3">
+                    <small class="ml-3">Created by Matthew Seaman on 11/10/20</small>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

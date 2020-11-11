@@ -1,0 +1,31 @@
+#main-content {
+    background-color: grey;
+}
+
+/*formatting the scrollspy*/
+#text {
+    position: relative;
+    overflow-y: scroll;
+    height: 770px;
+}
+/*providing all text within the document with indentations*/
+#text main p {
+    text-indent: 10%;
+}
+/*customizing the defualt bootstrap 4 padding on the .nav-link classes in the nav element viewable on large and extra large screens*/
+#contents .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/*adding extra styling to the nav element for large and extra large screens so that the links are highlighted on mouse over*/
+#contents li:hover{
+    background-color: lightgrey;
+}
+
+/*reformatting the scrollspy so that on medium and smaller screens the scrolls spy disappears; limiting it to large and extra large screens.*/
+@media only screen and (max-width: 991px) {
+    #text{
+        height: 100%;
+        overflow-y: auto;
+    }
+}
