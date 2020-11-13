@@ -1,0 +1,7 @@
+// override defualt colors
+$theme-colors: (
+    "primary": #36B3A8,
+    "secondary": #1F1F1F
+);
+// import bootstrap
+@import"../bootstrap-4.1.3/bootstrap-4.1.3/scss/bootstrap";

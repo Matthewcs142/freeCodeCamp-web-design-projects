@@ -1,0 +1,52 @@
+//
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: lightgray;
+}
+
+.navbar {
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    .navbar-brand h3 {
+        font-weight: 100;
+    }
+    .nav-item {
+        font-size: 1.4rem;
+    }
+}
+.bg-dark {
+    opacity: .5;
+}
+
+#showcase {
+    background: url("../images/main.jpeg") bottom center / cover no-repeat;
+    min-height: 750px;
+    h1 {
+        font-family: "Questrial", sans-serif;
+        line-height: 1;
+    }
+    #book {
+        font-size: 1.5rem;
+        border-radius: 2rem;
+    }
+}
+
+#joinNewsletter {
+    opacity: 1;
+}
+
+#footer {
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 767px){
+    #showcase {
+        min-height: 500px;
+        h1 {
+            font-size: 4rem;
+        }
+    }
+}
