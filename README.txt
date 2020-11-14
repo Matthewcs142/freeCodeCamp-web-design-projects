@@ -69,6 +69,7 @@ Eigth commit:
     Aurora Grove
     Aurora icons
     Aurora gallery
+    Aurora grove screenshots
   Description:
     This is the largest project in my portfolio to date. This project was the capstone for a bootstrap bootcamp on Udemy viewable at: https://www.udemy.com/share/101WZyAEAbdlZRQ3kF/ . The project incorporated a siginficant number of bootstrap components and utilities to create a responsive, semi-interactive webpage for a hotal/camping experience. The project featured downloading the Bootstrap 4 source files and modifying them locally using SCSS. The project also included a number of instructor provided images that unfortunately I am not able to upload to this repository given their rather large size (they are too large for my extremely slow internet connection to handle). The images are supposed to be stored in a file called images in the following structure:
     	images (directory)
@@ -93,7 +94,7 @@ Eigth commit:
 		dogs.png
 		main.jpeg
 		winter.png
-However, the slider images and the three images at the bottom (dogs, main, and winter) are too large to upload, so they are absent from this commit. A version of this project can be viewed on my codepen, but all of the proper images are missing there. The following is the link to this project on my codepen: https://codepen.io/matthewcs142/pen/MWeLJpe . In order to make this project function, you need to download the original bootstrap source files and extract the downloaded files from the zip folder that they will be packaged in. Then the extracted files should be placed directly into the project's main directory without any further modifications made to them.  
+However, the slider images and the three images at the bottom (dogs, main, and winter) are too large to upload, so they are absent from this commit. A version of this project can be viewed on my codepen, but all of the proper images are missing there. The following is the link to this project on my codepen: https://codepen.io/matthewcs142/pen/MWeLJpe . In order to make this project function, you need to download the original bootstrap source files and extract the downloaded files from the zip folder that they will be packaged in. Then the extracted files should be placed directly into the project's main directory without any further modifications made to them. Included in this commit is a file containing screenshots of the completed project (aurora grove screenshots), these screenshots show the index.html file displayed on a md/lg screen size. Not displayed are the mobile views, along with the modal that is hidden by defualt, but displyed on the screen whenever one of the "book" buttons are clicked, as well as the collasped navbar.
    
    
 Additional portfolio code:
