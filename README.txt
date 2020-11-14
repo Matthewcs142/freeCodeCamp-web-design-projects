@@ -62,6 +62,40 @@ Seventh commit:
   Description:
     This project is my solution for Freecodecamp's technical documentation project, a capstone project for their responsive web design course. This version of my project does not include the auto grader from FCC. This project can be viewed on my codepen at: https://codepen.io/matthewcs142/pen/PozxERO, as well as the version with the auto grader at: https://codepen.io/matthewcs142/pen/PozxEbm. The project is built with the bootstrap 4 framework and it features a bootstrap 4 scrollspy as well as two very different formats and positions for the page's navigation based on the size of the screen being used to view the page. The content of the page is just lorem ipsum text, making this project a template for a documentation page. I gave the project a grey-scale color scheme to give the project a utilitarian feel.
 
+Eigth commit:
+  Date of commit:
+    11/13/20
+  Files commiteed:
+    Aurora Grove
+    Aurora icons
+    Aurora gallery
+  Description:
+    This is the largest project in my portfolio to date. This project was the capstone for a bootstrap bootcamp on Udemy viewable at: https://www.udemy.com/share/101WZyAEAbdlZRQ3kF/ . The project incorporated a siginficant number of bootstrap components and utilities to create a responsive, semi-interactive webpage for a hotal/camping experience. The project featured downloading the Bootstrap 4 source files and modifying them locally using SCSS. The project also included a number of instructor provided images that unfortunately I am not able to upload to this repository given their rather large size (they are too large for my extremely slow internet connection to handle). The images are supposed to be stored in a file called images in the following structure:
+    	images (directory)
+		gallery	(directory)
+			social1.png
+			social2.png
+			social3.png
+			social4.png
+			social5.png
+			social6.png
+			social7.png
+			social8.png
+		icons	(directory)
+			campfire.png
+			nature.png
+			tent.png
+		slider (directory)
+    			caribou.png
+			coffee.png
+			fire.png
+			trees.png
+		dogs.png
+		main.jpeg
+		winter.png
+However, the slider images and the three images at the bottom (dogs, main, and winter) are too large to upload, so they are absent from this commit. A version of this project can be viewed on my codepen, but all of the proper images are missing there. The following is the link to this project on my codepen: https://codepen.io/matthewcs142/pen/MWeLJpe . In order to make this project function, you need to download the original bootstrap source files and extract the downloaded files from the zip folder that they will be packaged in. Then the extracted files should be placed directly into the project's main directory without any further modifications made to them.  
+   
+   
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
