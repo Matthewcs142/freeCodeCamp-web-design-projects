@@ -95,7 +95,14 @@ Eigth commit:
 		main.jpeg
 		winter.png
 However, the slider images and the three images at the bottom (dogs, main, and winter) are too large to upload, so they are absent from this commit. A version of this project can be viewed on my codepen, but all of the proper images are missing there. The following is the link to this project on my codepen: https://codepen.io/matthewcs142/pen/MWeLJpe . In order to make this project function, you need to download the original bootstrap source files and extract the downloaded files from the zip folder that they will be packaged in. Then the extracted files should be placed directly into the project's main directory without any further modifications made to them. Included in this commit is a file containing screenshots of the completed project (aurora grove screenshots), these screenshots show the index.html file displayed on a md/lg screen size. Not displayed are the mobile views, along with the modal that is hidden by defualt, but displyed on the screen whenever one of the "book" buttons are clicked, as well as the collasped navbar.
-   
+
+Ninth commit:
+  Date of commit:
+    11/14/20
+  Files committed:
+    Museum of Candy
+  Description:
+    This is a bonus project from a Bootstrap 4 bootcamp on udemy, viewable here:https://www.udemy.com/share/101WZyAEAbdlZRQ3kF/ . A modified version of this project may also be viewed on my codepen profile at: https://codepen.io/matthewcs142/pen/QWEYqWx .
    
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
