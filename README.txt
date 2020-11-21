@@ -103,6 +103,15 @@ Ninth commit:
     Museum of Candy
   Description:
     This is a bonus project from a Bootstrap 4 bootcamp on udemy, viewable here:https://www.udemy.com/share/101WZyAEAbdlZRQ3kF/ . A modified version of this project may also be viewed on my codepen profile at: https://codepen.io/matthewcs142/pen/QWEYqWx .
+    
+Tenth commit:
+  Date of commit:
+    11/21/20
+  Files committed:
+    FCC JavaScript Part 1
+    FCC JavaScript Part 2
+  Description:
+    These two files document my course work for a 111-lesson course on basic JavaScript from FreeCodeCamp; covering all of the essentials of basic JS, from commenting to recursion.
    
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
