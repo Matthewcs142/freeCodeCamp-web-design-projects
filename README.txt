@@ -145,6 +145,14 @@ Fourteenth commit:
   Description:
     This file documents my course work for a 22-lesson course from FreeCodeCamp on applied accessibility.
 
+Fifteenth commit:
+  Date of commit:
+    11/21/20
+  Files committed:
+    FCC Responsive Web Design Principles
+  Decription:
+    This file documents my course work from a 4-lesson series from FreeCodeCamp on responsive web design.
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
