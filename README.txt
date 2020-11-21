@@ -137,6 +137,14 @@ Thirteenth commit:
   Description:
     This file documents my course work for a 52-lesson course from FreeCodeCamp on applied visual design.
 
+Fourteenth commit:
+  Date of commit:
+    11/21/20
+  Files committed:
+    FCC Applied Accessibility
+  Description:
+    This file documents my course work for a 22-lesson course from FreeCodeCamp on applied accessibility.
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
