@@ -8,7 +8,7 @@ First commit:
     tribute.html
     tribute-main.css
   Description:
-    This project is part of Freecodecamp's responsvie web design course and it required the duplication of a tribute page for a Dr. Norman Borlaug. The my solution for this project can be viewed on my codepen at: https://codepen.io/matthewcs142/pen/eYZxMew. My solution for this project implemented Bootstrap 4 via the Bootstrap 4 CDN (though this is not visible within the code displayed on my codepen, with the head of the page implementing the Bootstrap 4 card component. In adddition to implementing Bootstrap 4, I also made additional modifications of my own which can be viewed within the file titled tribute-main.css.
+    This project is part of Freecodecamp's responsive web design course and it required the duplication of a tribute page for a Dr. Norman Borlaug. The my solution for this project can be viewed on my codepen at: https://codepen.io/matthewcs142/pen/eYZxMew. My solution for this project implemented Bootstrap 4 via the Bootstrap 4 CDN (though this is not visible within the code displayed on my codepen, with the head of the page implementing the Bootstrap 4 card component. In adddition to implementing Bootstrap 4, I also made additional modifications of my own which can be viewed within the file titled tribute-main.css.
      
 Second commit:
   Date of commit:
