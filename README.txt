@@ -153,6 +153,14 @@ Fifteenth commit:
   Decription:
     This file documents my course work from a 4-lesson series from FreeCodeCamp on responsive web design.
 
+Sixteenth commit:
+  Date of commit:
+    11/21/20
+  Files committed:
+    FCC CSS Flexbox
+  Description:
+    This file documents my course work from a 17-lesson course from FreeCodeCamp on CSS Flexbox.
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
