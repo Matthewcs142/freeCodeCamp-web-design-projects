@@ -1,0 +1,2 @@
+// this is an inline comment
+/* this is a multi-line comment (same appearance as comments in css) */
