@@ -120,6 +120,14 @@ Eleventh commit:
     FCC Basic HTML and HTML5
   Description:
     This file documents my course work for a 28-lesson course from FreeCodeCamp on basic HTML and HTML5.
+  
+Twelfth commit:
+  Date of commit:
+    11/21/20
+  Files committed:
+    FCC Basic CSS
+  Description:
+    This file documents my course work for a 44-lesson course from FreeCodeCamp on basic CSS.
 
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
