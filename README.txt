@@ -200,6 +200,15 @@ This project is part of FreeCodeCamp's responsive web design course. The color s
       This is the product landing page project for FCC's responsive web design course. This project is based on the model provided by FCC, viewable here: https://codepen.io/freeCodeCamp/full/RKRbwL 
 This is my own take on the project, which implements bootstrap 4, font awesome, and google fonts. This project can be viewed on my Codepen at:https://codepen.io/matthewcs142/pen/OJXqVPg
 
+Twentyfirst commit:
+  Date of commit:
+    11/22/20
+  Files committed:
+    udemy_portfolio_page
+  Description:
+    This is a model portfolio built with bootstrap 4. Instead of the portfolio being built with multiple HTML documents linked together, this portfolio is a single, large HTML document wherein an accordian is implemented using Bootstrap 4 collapse classes. Additionally, Ekko Lightbox is implemented as well, allowing for a better image viewing experience for the user when browsing the project images in the work tab. This portfolio page was built as the final project for a udemy bootstrap 4 course viewable here: https://www.udemy.com/share/101Xd8AEAbdlZRQ3kF/ 
+    This project may be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/YzWMMVR
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
