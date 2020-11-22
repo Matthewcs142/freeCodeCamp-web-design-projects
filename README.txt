@@ -177,6 +177,15 @@ Eighteenth commit:
   Description:
     This file documents my course work from a 31-lesson course from FreeCodeCamp on JavaScript ES6.
 
+Ninteenth commit:
+  Date of commit:
+    11/22/20
+  Files committed:
+    looplab_social_theme
+  Description:
+    This project is one of five from a Udemy course on Bootstrap 4, viewable here: https://www.udemy.com/share/101Xd8AEAbdlZRQ3kF/
+This project is a basic social theme, for say a social media website. It implements Bootstrap 4 as well as the full version of jQuery (instead of the slim version that is included with the stock bootstrap boiler plate). This project is notable for the implementation of smooth scrolling, allowing you to click on any of the nav links resulting in the page automatically scrolling to the section of the page that corresponds with the id used in the nav link. This is made possible with the full jQuery library and it will not function with the slim version used in the stock bootstrap boiler plate. A modal is also implemented in this project so that if you click on the 'contact us' button located in the footer, a modal containing a form will pop up. This project can also be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/yLJmBbb
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
