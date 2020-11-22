@@ -169,6 +169,14 @@ Seventeenth commit:
   Description:
     This file documents my course work from a 22-lesson course from FreeCodeCamp on CSS Grid.
 
+Eighteenth commit:
+  Date of commit:
+    11/21/20
+  Files committed:
+    FCC ES6
+  Description:
+    This file documents my course work from a 31-lesson course from FreeCodeCamp on JavaScript ES6.
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
