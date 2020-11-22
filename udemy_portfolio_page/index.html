@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!--Required Meta tags for Bootstrap-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!--Font Awsome Free CSS CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!--ekko-lightbox CSS CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="main.css">
+
+    <title>Portfolio</title>
+  </head>
+  
+  <body>
+    
+    <!--Main container for all content-->
+    <div class="container border" id="main-container">
+        
+        <!--Page header-->
+        <header id="main-header">
+            
+            <!--Header Row-->
+            <div class="row no-gutters d-flex justify-content-center">
+                
+                <!--Image Container-->
+                <div class="col-md-9 col-lg-4">
+                    <img src="images/my_photo.jpg" alt="Profile picture">    
+                </div>
+                
+                <!--Container for name plate, social media links, title banner, and accordion buttons-->
+                <div class="col-md-9 col-lg-8">
+                    <!--Flexbox wrapping all 4 major parts in this column, stacking the parts on top of eachother-->
+                    <div class="d-flex flex-column">
+                        
+                        <!--name plate and social media links-->
+                        <div class="p-5 bg-dark text-white">
+                            <!--Additional flexbox wrapping the name plate and social media links, controlling the behavior of both-->
+                            <div class="d-flex flex-column flex-lg-row">
+                                <!--Name plate-->
+                                <div class="container text-center mb-3">
+                                    <h1 class="display-5">Matthew Seaman</h1>
+                                </div>
+                                <!--Social media links-->
+                                <!--Additional flexbox controlling the behavior of the four links-->
+                                <div class="container d-flex justify-content-between align-items-center">
+                                    <div class="d-block">
+                                        <a href="https://www.linkedin.com/in/matthew-seaman-1293105a/" target="blank" class="text-white"><i class="fab fa-linkedin p-3"></i></a>
+                                    </div>
+                                    <div class="d-block">
+                                        <a href="https://www.freecodecamp.org/matthewcs142" target="blank" class="text-white"><i class="fab fa-free-code-camp p-3"></i></a>
+                                    </div>
+                                    <div class="d-block">
+                                        <a href="https://codepen.io/matthewcs142/pens/showcase" target="blank" class="text-white"><i class="fab fa-codepen p-3"></i></a>
+                                    </div>
+                                    <div class="d-block">
+                                        <a href="https://github.com/Matthewcs142" target="blank" class="text-white"><i class="fab fa-github p-3"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Title banner-->
+                        <div class="p-4 bg-black text-white text-center">
+                            <span>Front-End Web Developer</span>
+                        </div>
+                        <!--Accordion buttons-->
+                        <!--Flexbox controlling the behavior of the accordion buttons-->
+                        <div class="d-flex flex-row text-white align-items-stretch text-center">
+                            <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
+                                <i class="fas fa-home fa-2x d-block"></i>
+                                <span class="d-none d-sm-block">Home</span>
+                            </div>
+                            <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
+                                <i class="fas fa-graduation-cap fa-2x d-block"></i>
+                                <span class="d-none d-sm-block">Resume</span>
+                            </div>
+                            <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
+                                <i class="fas fa-folder-open fa-2x d-block"></i>
+                                <span class="d-none d-sm-block">Work</span>
+                            </div>
+                            <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
+                                <i class="fas fa-envelope fa-2x d-block"></i>
+                                <span class="d-none d-sm-block">Contact</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+        <!--Accordion pages-->
+        <!--Home-->
+        <div id="home" class="collapse show">
+            <div class="row d-flex justify-content-center no-gutters">
+                <div class="col-md-9 col-lg-12">
+                    <div class="card card-body bg-primary text-white py-5">
+                        <h2>Welcome To My Page</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quasi?</p>
+                    </div>
+                    <div class="card card-body py-5">
+                        <h3>My Skills</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellat aspernatur natus rem vitae itaque?</p>
+                        <hr>
+                        <p class="h4 text-center">Languages</p>
+                        <hr>
+                        <h4>HTML 5</h4>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success" style="width: 90%;"></div>
+                        </div>
+                        <h4>CSS 3</h4>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success" style="width: 80%;"></div>
+                        </div>
+                        <h4>JavaScript</h4>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success" style="width: 40%;"></div>
+                        </div>
+                        <h4>PHP</h4>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success" style="width: 0%;"></div>
+                        </div>
+                        <h4>Python</h4>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success" style="width: 90%;"></div>
+                        </div>
+                        <hr>
+                        <p class="h4 text-center">Libraries, Frameworks, and Other Skills</p>
+                        <hr>
+                        <h4>Bootstrap 4</h4>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success" style="width: 100%;"></div>
+                        </div>
+                        <h4>React JS</h4>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success" style="width: 0%;"></div>
+                        </div>
+                        <h4>Node JS</h4>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success" style="width: 0%;"></div>
+                        </div>
+                        <h4>Tinker Py</h4>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success" style="width: 30%;"></div>
+                        </div>
+                        <h4>Git and GitHub</h4>
+                        <div class="progress mb-3">
+                            <div class="progress-bar bg-success" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Resume-->
+        <div id="resume" class="collapse">
+            <div class="row d-flex justify-content-center no-gutters">
+                <div class="col-md-9 col-lg-12">
+                    <div class="card card-body bg-success text-white py-5">
+                        <h2>My Resume</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quasi?</p>
+                    </div>
+                    <div class="card card-body py-5">
+                        <h3>Where I Have Worked</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laudantium odit ea corporis animi at.</p>
+                        <div class="card-deck d-flex flex-column">
+                            <!--First Job-->
+                            <div class="card p-5">
+                                <div class="card-body">
+                                    <h4 class="card-title">Company Name</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsam laudantium neque vel voluptas quaerat.
+                                    </p>
+                                    <p class="p-2 mb-3 bg-dark text-white">
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                    <p class="p-2 mb-3 bg-dark text-white">
+                                        Phone: 0-000-000-000
+                                    </p>
+                                </div>
+                                <div class="card footer">
+                                    <p class="text-muted">Dates: 0000 - 0000</p>
+                                </div>
+                            </div>
+                            <!--Second Job-->
+                            <div class="card p-5">
+                                <div class="card-body">
+                                    <h4 class="card-title">Company Name</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsam laudantium neque vel voluptas quaerat.
+                                    </p>
+                                    <p class="p-2 mb-3 bg-dark text-white">
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                    <p class="p-2 mb-3 bg-dark text-white">
+                                        Phone: 0-000-000-000
+                                    </p>
+                                </div>
+                                <div class="card footer">
+                                    <p class="text-muted">Dates: 0000 - 0000</p>
+                                </div>
+                            </div>
+                            <!--Third Job-->
+                            <div class="card p-5">
+                                <div class="card-body">
+                                    <h4 class="card-title">Company Name</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsam laudantium neque vel voluptas quaerat.
+                                    </p>
+                                    <p class="p-2 mb-3 bg-dark text-white">
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                    <p class="p-2 mb-3 bg-dark text-white">
+                                        Phone: 0-000-000-000
+                                    </p>
+                                </div>
+                                <div class="card footer">
+                                    <p class="text-muted">Dates: 0000 - 0000</p>
+                                </div>
+                            </div>
+                            <!--Fourth Job-->
+                            <div class="card p-5">
+                                <div class="card-body">
+                                    <h4 class="card-title">Company Name</h4>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsam laudantium neque vel voluptas quaerat.
+                                    </p>
+                                    <p class="p-2 mb-3 bg-dark text-white">
+                                        Lorem ipsum dolor sit amet consectetur.
+                                    </p>
+                                    <p class="p-2 mb-3 bg-dark text-white">
+                                        Phone: 0-000-000-000
+                                    </p>
+                                </div>
+                                <div class="card footer">
+                                    <p class="text-muted">Dates: 0000 - 0000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Work-->
+        <div id="work" class="collapse">
+            <div class="row d-flex justify-content-center no-gutters">
+                <div class="col-md-9 col-lg-12">
+                    <div class="card card-body bg-warning text-white py-5">
+                        <h2>My Projects</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quasi?</p>
+                    </div>
+                    <div class="card card-body">
+                        <h3>Projects I Have Built</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit dolores, at officiis asperiores odio molestias.</p>
+                        <div class="row">
+                            <!--Project 1-->
+                            <div class="col-lg-3">
+                                <a href="images/aurora.JPG" data-toggle="lightbox">
+                                    <img src="images/aurora.JPG" alt="" class="img-fluid">
+                                </a>
+                                <div class="container text-center my-3">
+                                    <a href="https://codepen.io/matthewcs142/pen/MWeLJpe" target="blank">Go to project</a>
+                                </div>
+                            </div>
+                            <!--Project 2-->
+                            <div class="col-lg-3">
+                                <a href="images/museum_of_candy.JPG" data-toggle="lightbox">
+                                    <img src="images/museum_of_candy.JPG" alt="" class="img-fluid">
+                                </a>
+                                <div class="container text-center my-3">
+                                    <a href="https://codepen.io/matthewcs142/pen/abZxMvO" target="blank">Go to project</a>
+                                </div>
+                            </div>
+                            <!--Project 3-->
+                            <div class="col-lg-3">
+                                <a href="images/tribute.JPG" data-toggle="lightbox">
+                                    <img src="images/tribute.JPG" alt="" class="img-fluid">
+                                </a>
+                                <div class="container text-center my-3">
+                                    <a href="https://codepen.io/matthewcs142/pen/eYZxMew" target="blank">Go to project</a>
+                                </div>
+                            </div>
+                            <!--Project 4-->
+                            <div class="col-lg-3">
+                                <a href="images/technical_doc.JPG" data-toggle="lightbox">
+                                    <img src="images/technical_doc.JPG" alt="" class="img-fluid">
+                                </a>
+                                <div class="container text-center my-3">
+                                    <a href="https://codepen.io/matthewcs142/pen/PozxERO" target="blank">Go to project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--Project 5-->
+                            <div class="col-lg-3">
+                                <a href="images/product_landing.JPG" data-toggle="lightbox">
+                                    <img src="images/product_landing.JPG" alt="" class="img-fluid">
+                                </a>
+                                <div class="container text-center my-3">
+                                    <a href="https://codepen.io/matthewcs142/pen/OJXqVPg" target="blank">Go to project</a>
+                                </div>
+                            </div>
+                            <!--Project 6-->
+                            <div class="col-lg-3">
+                                <a href="images/survey.JPG" data-toggle="lightbox">
+                                    <img src="images/survey.JPG" alt="" class="img-fluid">
+                                </a>
+                                <div class="container text-center my-3">
+                                    <a href="https://codepen.io/matthewcs142/pen/ExypXaJ" target="blank">Go to project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--contact-->
+        <div id="contact" class="collapse">
+            <div class="row d-flex justify-content-center no-gutters">
+                <div class="col-md-9 col-lg-12">
+                    <div class="card card-body bg-danger text-white py-5">
+                        <h2>Contact</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quasi?</p>
+                    </div>
+                    <!--Contact Form-->
+                    <div class="card card-body py-5">
+                        <h3>Get In Touch</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sunt vitae non esse accusantium quas.</p>
+                        <form action="">
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-danger text-white">
+                                            <i class="fas fa-user"></i>
+                                        </span> 
+                                    </div>
+                                    <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+                                </div>
+                            </div> 
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-danger text-white">
+                                            <i class="fas fa-envelope"></i>
+                                        </span> 
+                                    </div>
+                                    <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg-danger text-white">
+                                            <i class="fas fa-pencil-alt"></i>
+                                        </span> 
+                                    </div>
+                                    <textarea class="form-control bg-dark text-white" placeholder="Your message"></textarea>
+                                </div>
+                            </div> 
+                            <input type="submit" value="Submit" class="btn btn-danger btn-block btn-lg">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+        
+        <!--Footer-->
+        <footer id="main-footer">
+            <!--Flexbox here is necessary to control the footer and maintain it's position, aligned relative the header-->
+            <div class="row d-flex justify-content-center no-gutters">
+                <div class="col-md-9 col-lg-12 py-5 bg-dark d-flex justify-content-center justify-content-lg-start">
+                    <a href="#" class="btn btn-outline-light ml-lg-5">
+                        <i class="fas fa-cloud"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </footer>   
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--ekko-lightbox JS CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+
+    <!--Additional JS-->
+    <!--Function controlling the number of accordion tabs that may be visible at a single time - limiting the number to 1-->
+    <script>
+        $('.port-item').click(function() {
+            $('.collapse').collapse('hide');
+        });
+    </script>
+    <!--Function controlling ekko-lightbox-->
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(e) {
+            e.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+
+  </body>
+</html>
