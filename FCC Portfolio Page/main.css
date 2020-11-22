@@ -1,0 +1,16 @@
+/*Universal Styles*/
+.bg-dark-to-white {
+    background-image: linear-gradient(#212529, #FFF);
+}
+
+.bg-lightgray {
+    background-color: lightgray;
+}
+/*Welcome section and header styles*/
+#welcome-section {
+    height: 100vh;
+}
+
+#main-heading {
+    margin-top: 220px;
+}

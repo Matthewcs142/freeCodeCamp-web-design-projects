@@ -1,0 +1,46 @@
+body {
+    background-color:white;
+    font-family: 'Merriweather', serif, sans-serif;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.navbar-brand {
+    font-family: 'Modak', cursive, sans-serif;
+    font-size: 2rem;
+}
+
+.bg-lightgray {
+    background-color: lightgray;
+}
+
+.submit {
+    background-color: rgba(226, 226, 93, 0.644);
+}
+
+.submit a {
+    color: black;
+}
+
+.txt-black {
+    color: black;
+}
+
+.icon{
+    font-size: 5rem;
+    color: rgb(206, 141, 20);
+    padding: 25px;
+    border: solid;
+    border-radius: 100%;
+}
+
+.heavy-border {
+    border-width: 5px;
+}
+
+#get-started {
+    margin-top: 200px;
+    
+}
