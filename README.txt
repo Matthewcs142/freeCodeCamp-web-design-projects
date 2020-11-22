@@ -186,6 +186,20 @@ Ninteenth commit:
     This project is one of five from a Udemy course on Bootstrap 4, viewable here: https://www.udemy.com/share/101Xd8AEAbdlZRQ3kF/
 This project is a basic social theme, for say a social media website. It implements Bootstrap 4 as well as the full version of jQuery (instead of the slim version that is included with the stock bootstrap boiler plate). This project is notable for the implementation of smooth scrolling, allowing you to click on any of the nav links resulting in the page automatically scrolling to the section of the page that corresponds with the id used in the nav link. This is made possible with the full jQuery library and it will not function with the slim version used in the stock bootstrap boiler plate. A modal is also implemented in this project so that if you click on the 'contact us' button located in the footer, a modal containing a form will pop up. This project can also be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/yLJmBbb
 
+Twentieth commit:
+  Date of commit:
+    11/22/20
+  Files committed:
+    FCC Portfolio Page
+    FCC Product Landing Page
+  Description:
+  			FCC Portfolio Page
+      This is a simple, grey scale portfolio page based on a model provided by FreeCodeCamp viewable here: https://codepen.io/freeCodeCamp/full/zNBOYG
+This project is part of FreeCodeCamp's responsive web design course. The color scheme is grey-scale, like several of my other projects, because I personally like the appearance of a grey-scale color scheme. This project implements Bootstrap 4 and Font Awsome via CDNs. This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/eYzaYNa
+  			FCC Product Landing Page
+      This is the product landing page project for FCC's responsive web design course. This project is based on the model provided by FCC, viewable here: https://codepen.io/freeCodeCamp/full/RKRbwL 
+This is my own take on the project, which implements bootstrap 4, font awesome, and google fonts. This project can be viewed on my Codepen at:https://codepen.io/matthewcs142/pen/OJXqVPg
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
