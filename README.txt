@@ -209,6 +209,14 @@ Twentyfirst commit:
     This is a model portfolio built with bootstrap 4. Instead of the portfolio being built with multiple HTML documents linked together, this portfolio is a single, large HTML document wherein an accordian is implemented using Bootstrap 4 collapse classes. Additionally, Ekko Lightbox is implemented as well, allowing for a better image viewing experience for the user when browsing the project images in the work tab. This portfolio page was built as the final project for a udemy bootstrap 4 course viewable here: https://www.udemy.com/share/101Xd8AEAbdlZRQ3kF/ 
     This project may be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/YzWMMVR
 
+Twentysecond commit:
+  Date of commit:
+    11/23/20
+  Files committed:
+    udemy_blogen_admin_ui
+  Description:
+    This project is part of a set of five projects from a udemy course on Bootstrap 4 by Brad Traversy, viewable here: https://www.udemy.com/share/101Xd8AEAbdlZRQ3kF/ This project is built with the vanilla Bootstrap 4 framework, while also implementing font awesome icons and the CKEditor in several of the modals. I've modified the project, adding several pages that were not included by Brad Traversy in his course. In total, this project is composed of 10 html pages and it is completely responsive. This project can be viewed on my codepen at: https://codepen.io/matthewcs142/project/editor/ZnGjOy
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
