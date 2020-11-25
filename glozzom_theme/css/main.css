@@ -1,0 +1,108 @@
+/*index.html and universal styles*/
+body {
+    overflow-x: hidden;
+}
+
+#main-footer {
+    background-color: #000;
+    color: #FFF;
+}
+
+/*Navbar Styles*/
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar .nav-item .active {
+    border-left: #444 3px solid;
+    padding-left: 1rem;
+}
+
+/*Showcase styles*/
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background-image: url('../images/image1.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background-image: url('../images/image2.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background-image: url('../images/image3.jpg');
+    background-size: cover;
+}
+
+/*Home heading styles*/
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background-image: url('../images/lights.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #FFF;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 100%;
+    background-color: rgba(0, 0,0, 0.7);
+}
+
+/*Video play section*/
+#video-play {
+    position: relative;
+    min-height: 200px;
+    background-image: url('../images/media.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #FFF;
+}
+
+#video-play a {
+    color: #FFF;
+}
+
+/*about.html styles*/
+/*Page header styles*/
+#pageHeader {
+    height: 200px;
+    background-image: url('../images/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #FFF;
+    border-bottom: 1px #EEE solid;
+    padding-top: 50px;
+}
+
+/*About section styles*/
+.about-img {
+    margin-top: -50px;
+}
+
+/*service.html styles*/
+/*FAQ section styles*/
+#faq .card {
+    border: #444;
+}
+
+#faq a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#faq .card-body, #faq .card-header{
+    background-color: #333;
+}
