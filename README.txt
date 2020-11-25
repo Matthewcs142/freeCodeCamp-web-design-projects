@@ -217,6 +217,14 @@ Twentysecond commit:
   Description:
     This project is part of a set of five projects from a udemy course on Bootstrap 4 by Brad Traversy, viewable here: https://www.udemy.com/share/101Xd8AEAbdlZRQ3kF/ This project is built with the vanilla Bootstrap 4 framework, while also implementing font awesome icons and the CKEditor in several of the modals. I've modified the project, adding several pages that were not included by Brad Traversy in his course. In total, this project is composed of 10 html pages and it is completely responsive. This project can be viewed on my codepen at: https://codepen.io/matthewcs142/project/editor/ZnGjOy
 
+Twentythird commit:
+  Date of commit:
+    11/25/2020
+  Files committed:
+    glozzom_theme
+  Description:
+    Glozzom is a 5-page theme for an online company offering subscription based services, combined with a blog as well. This theme is one of five projects included in Brad Traversy's Bootstrap 4 course, available on udemy at: https://www.udemy.com/share/101Xd8AEAbdlZRQ3kF/ This project implements a lot of JavaScript and CSS libraries in addition to the Bootstrap framework, most notably the Slick slider implemented in about.html. The full jQuery library is implemented as well as opposed to the slim version included in the standard Bootstrap boilerplate. Another notable feature is the video embedded in the modal on index.html. This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/project/editor/XEwpQq
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
