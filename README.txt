@@ -225,6 +225,15 @@ Twentythird commit:
   Description:
     Glozzom is a 5-page theme for an online company offering subscription based services, combined with a blog as well. This theme is one of five projects included in Brad Traversy's Bootstrap 4 course, available on udemy at: https://www.udemy.com/share/101Xd8AEAbdlZRQ3kF/ This project implements a lot of JavaScript and CSS libraries in addition to the Bootstrap framework, most notably the Slick slider implemented in about.html. The full jQuery library is implemented as well as opposed to the slim version included in the standard Bootstrap boilerplate. Another notable feature is the video embedded in the modal on index.html. This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/project/editor/XEwpQq
 
+Twentyfourth commit:
+  Date of commit:
+    11/26/2020
+  Files committed:
+    Mizuxie
+  Description:
+    Mizuxie is one of five projects included in Brad Traversy's Bootstrap 4 course, viewable here:https://www.udemy.com/share/101XpeAEAbdlZRQ3kF/ 
+The original title of the project was Mizuxe; however, I modified the name slightly to be more like a language that I recognize. The spelling of the original name was soo close to the spelling of a three-syllable name in standard Chinese, that I simply added an extra 'i' at the end so that the name would conform with Pinyin spelling conventions. This is a single page project that features a customized bootstrap framework, modified with sass. This one-page theme is for a book, published by the fictional Mizuxie. In regards to how the page is put together, the implementation of smooth scrolling is notable. This project is the second project that I have done where I have used SCSS inorder to put together the CSS styles for a page. This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/RwGwwOa
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
