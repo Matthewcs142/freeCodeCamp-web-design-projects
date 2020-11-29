@@ -234,6 +234,14 @@ Twentyfourth commit:
     Mizuxie is one of five projects included in Brad Traversy's Bootstrap 4 course, viewable here:https://www.udemy.com/share/101XpeAEAbdlZRQ3kF/ 
 The original title of the project was Mizuxe; however, I modified the name slightly to be more like a language that I recognize. The spelling of the original name was soo close to the spelling of a three-syllable name in standard Chinese, that I simply added an extra 'i' at the end so that the name would conform with Pinyin spelling conventions. This is a single page project that features a customized bootstrap framework, modified with sass. This one-page theme is for a book, published by the fictional Mizuxie. In regards to how the page is put together, the implementation of smooth scrolling is notable. This project is the second project that I have done where I have used SCSS inorder to put together the CSS styles for a page. This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/RwGwwOa
 
+twenty-fifth commit:
+  Date of commit:
+    11/28/20
+  Files committed:
+    form_validator
+  Description: 
+    This is a demonstration of basic, client-side form validation implemented with a basic registration page. This project was done as part of Brad Traversy's "20 Projects with Vanilla JavaScript" course on Udemy, viewable here: https://www.udemy.com/share/102yzoAEAbdlZRQ3kF/. This project may be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/dypPzjM
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
