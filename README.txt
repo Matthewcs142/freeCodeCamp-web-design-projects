@@ -258,6 +258,14 @@ Twenty-seventh commit:
   Description:
     This small application is a miniature notepad where in you can write down small note and save them to local storage. The application is fully functional with the "add task" button adding your notes to the DOM, displaying them to the screen, and adding the content of the notes to local storage. The 'x' on each entry will erase the corresponding note from the DOM and from local storage. The 'clear tasks' button will erase all notes from the DOM and from local storage. The filter function is also functional and allows you to filter your notes. Another notable feature of this project is that it uses the materialize css framework. This application is a project that I did for Brad Traversy's Modern JavaScript course on Udemy, available here: https://www.udemy.com/share/101WqkAEAbdlZRQ3kF/. This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/abmdLJx
 
+Twenty-eigth commit:
+  Date of commit:
+    12/4/20
+  Files committed:
+    loan_calculator
+  Description:
+    This small application demonstrates how to just vanilla JavaScript to get user input from a UI and use it to perform calculations. This project implements the Bootstrap 4 framework as well. This project was done as course work for Brad Traversy's Modern JS course on Udemy, viewable at: https://www.udemy.com/share/101WqkAEAbdlZRQ3kF/.  I have modified the original project as it was presented in the course so that it included a 'clear' button that would reset the entire application. The original project did not include such a button and had to be cleared either manually or by refreshing the html page in the web browser. This project may be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/LYRGvYe
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
