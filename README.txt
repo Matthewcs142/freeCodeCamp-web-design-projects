@@ -266,6 +266,15 @@ Twenty-eigth commit:
   Description:
     This small application demonstrates how to just vanilla JavaScript to get user input from a UI and use it to perform calculations. This project implements the Bootstrap 4 framework as well. This project was done as course work for Brad Traversy's Modern JS course on Udemy, viewable at: https://www.udemy.com/share/101WqkAEAbdlZRQ3kF/.  I have modified the original project as it was presented in the course so that it included a 'clear' button that would reset the entire application. The original project did not include such a button and had to be cleared either manually or by refreshing the html page in the web browser. This project may be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/LYRGvYe
 
+Twenty-ninth commit:
+  Date of commit:
+    12/4/20
+  Files committed:
+    number_guesser
+  Description:
+    This application uses JavaScript to create a small number guessing game wherein the winning number is randomly generated between a specific range. The minimum and maximum values of that range can be updated in the JavaScript. What makes this project stand out from the others on my Codepen is that is build with Skeleton; however, I added a little bit of extra styling of my own because Skeleton is a bit bare-bones. This project was part of the course work for Brad Traversy's Modern JavaScript course on Udemy, viewable at: https://www.udemy.com/share/101WqkAEAbdlZRQ3kF/
+    This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/gOwrYgM
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
