@@ -250,6 +250,14 @@ Twenty-sixth commit:
   Description:
     This file documents my course work for a 31-lesson course on the Bootstrap framework from FreeCodeCamp.
 
+Twenty-seventh commit:
+  Data of commit:
+    12/3/20
+  Files committed:
+    task_list
+  Description:
+    This small application is a miniature notepad where in you can write down small note and save them to local storage. The application is fully functional with the "add task" button adding your notes to the DOM, displaying them to the screen, and adding the content of the notes to local storage. The 'x' on each entry will erase the corresponding note from the DOM and from local storage. The 'clear tasks' button will erase all notes from the DOM and from local storage. The filter function is also functional and allows you to filter your notes. Another notable feature of this project is that it uses the materialize css framework. This application is a project that I did for Brad Traversy's Modern JavaScript course on Udemy, available here: https://www.udemy.com/share/101WqkAEAbdlZRQ3kF/. This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/abmdLJx
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
