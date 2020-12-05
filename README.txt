@@ -275,6 +275,14 @@ Twenty-ninth commit:
     This application uses JavaScript to create a small number guessing game wherein the winning number is randomly generated between a specific range. The minimum and maximum values of that range can be updated in the JavaScript. What makes this project stand out from the others on my Codepen is that is build with Skeleton; however, I added a little bit of extra styling of my own because Skeleton is a bit bare-bones. This project was part of the course work for Brad Traversy's Modern JavaScript course on Udemy, viewable at: https://www.udemy.com/share/101WqkAEAbdlZRQ3kF/
     This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/gOwrYgM
 
+Thirtieth commit:
+  Date of commit:
+    12/4/20
+  Files committed:
+    movie_seat_booking_app
+  Description:
+    This project is written in plain HTML, CSS, and JavaScript; no frameworks or outside code, save a single imported font from google fonts. This application is intended to replicate a seat booking application for a movie theater and it was course work in Brad Traversy's 20 JavaScript Projects course, viewable here: https://www.udemy.com/share/102yzoAEAbdlZRQ3kF/ When seats and a movie are selected, this information is saved to local storage so that the data persists after your browsing session ends or after the page is reloaded. The original project did not include a clear button which would erase the local storage and refresh the application, allowing you to begin anew; so I added on myself. However, since this this project is in a pen on Codepen, the reload() function which can be called on the window object and reload the page, doesn't work. This function does not appear to work from within a Codepen pen. So you have to manually refresh the browser after clicking on the 'clear selection' button. Note - while the reload() function doesn't appear to work, the 'clear selection' button will still clear the local storage for the application. Manual refresh is only needed to reset the user interface within the pen. This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/zYKqxEE
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
