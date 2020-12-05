@@ -283,6 +283,16 @@ Thirtieth commit:
   Description:
     This project is written in plain HTML, CSS, and JavaScript; no frameworks or outside code, save a single imported font from google fonts. This application is intended to replicate a seat booking application for a movie theater and it was course work in Brad Traversy's 20 JavaScript Projects course, viewable here: https://www.udemy.com/share/102yzoAEAbdlZRQ3kF/ When seats and a movie are selected, this information is saved to local storage so that the data persists after your browsing session ends or after the page is reloaded. The original project did not include a clear button which would erase the local storage and refresh the application, allowing you to begin anew; so I added on myself. However, since this this project is in a pen on Codepen, the reload() function which can be called on the window object and reload the page, doesn't work. This function does not appear to work from within a Codepen pen. So you have to manually refresh the browser after clicking on the 'clear selection' button. Note - while the reload() function doesn't appear to work, the 'clear selection' button will still clear the local storage for the application. Manual refresh is only needed to reset the user interface within the pen. This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/zYKqxEE
 
+Thirty-first commit:
+ Date of commit:
+   12/5/20
+ Files committed:
+   expanding_cards
+ Description:
+   This small project is a demonstration of how elements can be made interactive and dynamic using plain HTML, CSS, and JavaScript. In this case, images are used; however, this can be done with anything. This small project was classwork in Brad Traversy's 50 Projects course on Udemy, viewable here: https://www.udemy.com/share/103PjeAEAbdlZRQ3kF/
+   This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/abmNyBy
+   This project can also be found on one of Brad Traversy's GitHub repositories at: https://github.com/bradtraversy/50projects50days/tree/086998ac4b173b09c3b95fb0dbb091c533b91cc0/expanding-cards
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
