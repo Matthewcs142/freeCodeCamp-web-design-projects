@@ -293,7 +293,7 @@ Thirty-first commit:
    This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/abmNyBy
    This project can also be found on one of Brad Traversy's GitHub repositories at: https://github.com/bradtraversy/50projects50days/tree/086998ac4b173b09c3b95fb0dbb091c533b91cc0/expanding-cards
 
-thirty-second commit:
+Thirty-second commit:
   Date of commit:
     12/5/20
   Files committed:
@@ -302,6 +302,16 @@ thirty-second commit:
     This is a demonstration of a dynamic, interactive progress bar that users may, in this case, increase or decrease via the buttons beneath the bar. This small project is coursework from Brad Traversy's 50 Projects course on Udemy available at: https://www.udemy.com/share/103PjeAEAbdlZRQ3kF/
     This widget can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/ExgKwWO
     The code for this widget can also be found on Brad Traversy's course repository at: https://github.com/bradtraversy/50projects50days/tree/086998ac4b173b09c3b95fb0dbb091c533b91cc0/progress-steps
+
+Thirty-third commit:
+  Date of commit:
+    12/5/20
+  Files committed:
+    rotating_navigation
+  Description:
+    This short project is coursework from Brad Traversy's 50 Projects course on Udemy, available at: https://www.udemy.com/share/103PjeAEAbdlZRQ3kF/ It is a demonstration of to use JavaScript and CSS to create a rotating nav bar. When viewing this project, it is best to change the view settings in the pen to full page, otherwise the nav is a bit cramped and doesn't look as nice.
+    This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/oNzxGOX
+    This project can also be found on Brad Traversy's course respository at: https://github.com/bradtraversy/50projects50days/tree/086998ac4b173b09c3b95fb0dbb091c533b91cc0/rotating-nav-animation
 
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
