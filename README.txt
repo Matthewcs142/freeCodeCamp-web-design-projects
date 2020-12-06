@@ -321,6 +321,16 @@ Thirty-fourth commit:
   Description:
     This file documents my coursework concerning JavaScript Regexes for FreeCodeCamp's JavaScript algorithms and data structures certification.
 
+Thirty-fifth commit:
+  Date of commit:
+    12/6/20
+  Files committed:
+    hidden_search_widget
+  Description:
+    This widget was coursework in Brad Traversy's 50 Projects course on Uedmy and is a demonstration of how to make a hidden search bar. Brad Traversy's course can be found at: https://www.udemy.com/share/103PjeAEAbdlZRQ3kF/
+    This project may be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/XWjdowV
+    The code for this project may also be found on Brad Traversy's course repository at: https://github.com/bradtraversy/50projects50days/tree/086998ac4b173b09c3b95fb0dbb091c533b91cc0/hidden-search
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
