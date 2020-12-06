@@ -313,6 +313,14 @@ Thirty-third commit:
     This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/oNzxGOX
     This project can also be found on Brad Traversy's course respository at: https://github.com/bradtraversy/50projects50days/tree/086998ac4b173b09c3b95fb0dbb091c533b91cc0/rotating-nav-animation
 
+Thirty-fourth commit:
+  Date of commit:
+    12/6/20
+  Files committed:
+    FCC Regular Expressions
+  Description:
+    This file documents my coursework concerning JavaScript Regexes for FreeCodeCamp's JavaScript algorithms and data structures certification.
+
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
 
