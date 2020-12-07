@@ -371,7 +371,15 @@ Thirty-ninth commit:
     This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/BaLzWga
     The code from this project is also on the course repository at: https://github.com/bradtraversy/50projects50days/tree/086998ac4b173b09c3b95fb0dbb091c533b91cc0
 
-
+Fourtieth commit:
+  Date of commit:
+    12/7/20
+  Files committed:
+    sound_board
+  Description: 
+    This project is classwork from Brad Traversy's 50 Projects course on Udemy, available at: https://www.udemy.com/share/103PjeAEAbdlZRQ3kF/ It is a sound board that uses JavaScript to create html elements and turn them into sound buttons. the JavaScript is also coded to stop a sound from playing when another button is clicked on, preventing sounds from playing over eachother.
+    This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/YzGWxEv
+    The course repository can be founnd at: https://github.com/bradtraversy/50projects50days
 
 
 
