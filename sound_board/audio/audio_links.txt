@@ -1,0 +1,12 @@
+applause
+https://raw.githubusercontent.com/bradtraversy/50projects50days/master/sound-board/sounds/applause.mp3
+boo
+https://raw.githubusercontent.com/bradtraversy/50projects50days/master/sound-board/sounds/boo.mp3
+gasp
+https://raw.githubusercontent.com/bradtraversy/50projects50days/master/sound-board/sounds/gasp.mp3
+tada
+https://raw.githubusercontent.com/bradtraversy/50projects50days/master/sound-board/sounds/tada.mp3
+victory
+https://raw.githubusercontent.com/bradtraversy/50projects50days/master/sound-board/sounds/victory.mp3
+wrong
+https://raw.githubusercontent.com/bradtraversy/50projects50days/master/sound-board/sounds/wrong.mp3
