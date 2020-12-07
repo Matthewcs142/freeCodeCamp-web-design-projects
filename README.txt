@@ -352,7 +352,14 @@ Thirty-seventh commit:
     This project may be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/ExgKJpb
     And on the class repository at: https://github.com/bradtraversy/50projects50days/tree/086998ac4b173b09c3b95fb0dbb091c533b91cc0
 
-
+Thirty-eigth commit:
+  Date of commit:
+    12/7/20
+  Files committed:
+    split_landing_page
+  Description:
+    This project is an animated split landing page written with plain HTML, CSS, and JS. It was course work for Brad Traversy's 50 Projects course on Udemy, available at: https://www.udemy.com/share/103PjeAEAbdlZRQ3kF/. It also happens to include the first media query for screen height that I have ever written - to clean the project up a bit when viewing it on Codepen. This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/PoGNvaG
+    It can also be viewed on Brad Traversy's repository at: https://github.com/bradtraversy/50projects50days/tree/086998ac4b173b09c3b95fb0dbb091c533b91cc0
 
 
 
