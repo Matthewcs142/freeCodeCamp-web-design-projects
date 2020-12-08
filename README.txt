@@ -381,7 +381,15 @@ Fourtieth commit:
     This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/YzGWxEv
     The course repository can be founnd at: https://github.com/bradtraversy/50projects50days
 
-
+Forty-first commit:
+  Date of commit: 
+    12/8/20
+  Files committed:
+    random_jokes
+  Description:
+    This project uses the fetch API to generate a random joke every time the button is clicked. This was coursework in Brad Traversy's 50 projects course on Udemy, available at: https://www.udemy.com/share/103PjeAEAbdlZRQ3kF/
+    This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/XWjKeyx
+    The project can also be found on the course repository at: https://github.com/bradtraversy/50projects50days
 
 
 
