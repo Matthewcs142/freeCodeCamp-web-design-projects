@@ -391,8 +391,13 @@ Forty-first commit:
     This project can be viewed on my Codepen at: https://codepen.io/matthewcs142/pen/XWjKeyx
     The project can also be found on the course repository at: https://github.com/bradtraversy/50projects50days
 
-
-
+Forty-second commit:
+  Date of commit:
+    12/28/20
+  Files committed:
+    FCC Debugging
+  Description:
+    This file documents my course work for FreeCodeCamp's 12-lesson JavaScript debugging class.
 
 
 
