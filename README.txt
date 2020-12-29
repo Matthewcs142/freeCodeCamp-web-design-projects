@@ -399,7 +399,13 @@ Forty-second commit:
   Description:
     This file documents my course work for FreeCodeCamp's 12-lesson JavaScript debugging class.
 
-
+Forty-third commit:
+  Date of commit:
+    12/28/20
+  Files committed:
+    FCC Basic Data Structures
+  Description:
+    This file documents my course work for FreeCodeCamp's 20-lesson course on basic JavaScript data structures.
 
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
