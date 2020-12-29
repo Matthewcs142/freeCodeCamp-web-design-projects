@@ -1,0 +1,19 @@
+function filteredArray(arr, elem) {
+  let newArr = [];
+  // Only change code below this line
+  for (let i = 0; i < arr.length; i++) {
+    /*console.log(arr[i]);*/
+    let nestedArr = []
+    for (let j = 0; j < arr[i].length; j++) {
+      /*console.log(arr[i][j]);*/
+      nestedArr.push(arr[i][j]);
+    }
+    if (nestedArr.indexOf(elem) == -1) {
+      newArr.push(nestedArr);
+    }
+  }
+  // Only change code above this line
+  return newArr;
+}
+
+console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));

@@ -1,0 +1,12 @@
+function htmlColorNames(arr) {
+  // Only change code below this line
+  let startIndex = 0;
+  let toDelete = 2;
+  let toAdd1 = 'DarkSalmon';
+  let toAdd2 = 'BlanchedAlmond';
+  arr.splice(startIndex, toDelete, toAdd1, toAdd2)
+  // Only change code above this line
+  return arr;
+}
+
+console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
