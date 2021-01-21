@@ -414,6 +414,14 @@ Forty-fourth commit:
     FCC Basic Algorithm Scripting with JS
   Description:
     This file documents my course work for FreeCodeCamp's 16-lesson course for basic algorithm scripting with JavaScript - part of FreeCodeCamp's JavaScript Algorithms and Data Structures Certification.
+    
+Forty-fifth commit:
+  Data of commit:
+    1/21/2021
+  Files committed:
+    FCC Object Oriented Programming with JS
+  Description:
+    This file documents my coursework for FreeCodeCamp's 26-lesson module for object oriented programing with JavaScript - part of FCC's JavaScript Algorithms and Data Structures certification.
 
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
