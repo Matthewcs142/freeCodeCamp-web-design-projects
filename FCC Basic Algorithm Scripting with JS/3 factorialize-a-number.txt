@@ -1,0 +1,24 @@
+//set up range function
+function range (num) {
+  let rangeArray = [];
+  for (let i = 1; i <= num; i++) {
+    rangeArray.push(i);
+  }
+  return rangeArray
+}
+
+//set up factorial function
+function factorialize(num) {
+  //Declare needed variables
+  let result = 1;
+  let rangeArray = range(num);
+  
+  //loop through range array and multiply
+  for (let i in rangeArray) {
+    result *= rangeArray[i];
+  }
+  return result;
+}
+
+factorialize(5);
+

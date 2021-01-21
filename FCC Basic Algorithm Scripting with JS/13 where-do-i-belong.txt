@@ -1,0 +1,27 @@
+function getIndexToIns(arr, num) {
+  // define compare function for sorting array
+  function compareFunction(a, b) {
+    return a - b;
+  }
+
+  // sort array and initialize index variable
+  let sorted = arr.sort(compareFunction);
+  let index = 0;
+
+  // find index value for where num should be inserted in sorted array
+  if (num > sorted[sorted.length - 1]) {
+    sorted.push(num);
+    index = sorted.indexOf(num);
+  } else {
+    for (let i in sorted) {
+      if (num <= sorted[i]){
+        index += Number(i);
+        break
+      }
+    }
+  }
+  
+  return index;
+}
+
+getIndexToIns([5, 3, 20, 3], 5);

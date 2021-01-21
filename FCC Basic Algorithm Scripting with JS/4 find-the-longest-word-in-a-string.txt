@@ -1,0 +1,27 @@
+function findLongestWordLength(str) {
+  //declare variables
+  let object = {};
+  let strSplit = str.split(' ');
+  let objectValues;
+  let largestValue = 0;
+
+  //iterate through string and append words and counts to object
+  for (let i in strSplit) {
+    object[strSplit[i]] = strSplit[i].length;
+  }
+
+  //get the values from the object and place them in an array
+  objectValues = Object.values(object);
+  
+  //iterate through values to find the largest value
+  for (let i in objectValues) {
+    if (objectValues[i] > largestValue) {
+      largestValue = objectValues[i]
+    }
+  }
+
+  return largestValue;
+}
+
+let test = findLongestWordLength("The quick brown fox jumped over the lazy dog");
+console.log(test)

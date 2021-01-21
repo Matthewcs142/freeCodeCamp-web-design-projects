@@ -1,0 +1,13 @@
+function booWho(bool) {
+  let truthVal = undefined;
+
+  if (typeof(bool) == 'boolean'){
+    truthVal = true;
+  } else {
+    truthVal = false;
+  }
+
+  return truthVal;
+}
+
+booWho(null);

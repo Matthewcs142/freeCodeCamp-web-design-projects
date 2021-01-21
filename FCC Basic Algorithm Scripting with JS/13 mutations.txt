@@ -1,0 +1,16 @@
+function mutation(arr) {
+  
+  let length = arr[1].length;
+  let lookahead = [];
+
+  for (let i in arr[1]) {
+    lookahead += "(?=.*" + arr[1].charAt(i) + ")";
+  }
+
+  let regEx = new RegExp(lookahead, 'i');
+  let test = regEx.test(arr[0])
+
+  return test;
+}
+
+mutation(["hello", "hey"]);

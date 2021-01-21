@@ -1,0 +1,22 @@
+function reverseString(str) {
+  //Declare required variables
+  let strArray = [];
+  let reversedStr = '';
+  
+  //Iterate through string and append to array var
+  for (let i in str) {
+    strArray.push(str[i]);
+  }
+  
+  //Reverse array
+  strArray = strArray.reverse();
+  
+  //Iterate through array and concatenate elements to string var
+  for (let i in strArray) {
+    reversedStr += strArray[i];
+  }
+  return reversedStr;
+}
+
+let test = reverseString("hello");
+console.log(test);

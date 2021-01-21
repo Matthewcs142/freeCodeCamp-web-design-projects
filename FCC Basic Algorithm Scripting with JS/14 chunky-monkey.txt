@@ -1,0 +1,29 @@
+function chunkArrayInGroups(arr, size) {
+  // initialize new array to hold chuncks
+  let nestedArr = [];
+
+  // iterated through the length of original array
+  // increment iterator value by size of chunks
+  for (let i = 0; i < arr.length; i += size) {
+    
+    // initialize variable to hold elements of chunks
+    let arrToNest = [];
+
+    // iterate for the number of times equal to size of chunks
+    for (let j = 0; j < size; j++) {
+      
+      // append elements to chunk
+      // check if arr[i+j] is undefined
+      if (arr[i+j] != undefined) {
+        arrToNest.push(arr[i+j]);
+      }
+    }
+
+    // append chunk to main array
+    nestedArr.push(arrToNest);
+  }
+
+  return nestedArr;
+}
+
+chunkArrayInGroups([0, 1, 2, 3, 4, 5], 4);

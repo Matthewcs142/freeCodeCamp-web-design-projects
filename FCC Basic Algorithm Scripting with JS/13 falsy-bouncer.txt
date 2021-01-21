@@ -1,0 +1,14 @@
+function bouncer(arr) {
+  
+  let truthyArr = [];
+  
+  for (let i in arr) {
+    if (arr[i]) {
+      truthyArr.push(arr[i]);
+    }
+  }
+  
+  return truthyArr;
+}
+
+bouncer([7, "ate", "", false, 9]);
