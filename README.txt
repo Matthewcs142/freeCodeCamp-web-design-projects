@@ -1,5 +1,5 @@
 Web development projects
-Greetings to you! Welcome to my repository for my web development portfolio. Listed below is a detailed record of projects that I have done while learning web development. Each commit is listed with a date for the commit, the name of the files commited, and a description of the content of the files. At the end of this document is a list of links to additional projects that I have done that are stored elsewhere here on Github.
+Greetings to you! Welcome to my repository for my web development class woork. Listed below is a detailed record of projects and course work that I have done while learning web development. Each commit is listed with a date for the commit, the name of the files commited, and a description of the content of the files. At the end of this document is a list of links to additional projects that I have done that are stored elsewhere here on Github.
 
 First commit:
   Date of commit:
@@ -406,6 +406,14 @@ Forty-third commit:
     FCC Basic Data Structures
   Description:
     This file documents my course work for FreeCodeCamp's 20-lesson course on basic JavaScript data structures.
+    
+Forty-fourth commit:
+  Date of commit:
+    1/20/21
+  Files committed:
+    FCC Basic Algorithm Scripting with JS
+  Description:
+    This file documents my course work for FreeCodeCamp's 16-lesson course for basic algorithm scripting with JavaScript - part of FreeCodeCamp's JavaScript Algorithms and Data Structures Certification.
 
 Additional portfolio code:
   The following links are for additional projects that I have done while taking Codecademy's courses. The code for these projects are stored in other places here on github and not specifically in my own repositories.
